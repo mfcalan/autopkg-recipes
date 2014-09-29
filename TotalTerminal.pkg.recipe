@@ -5,14 +5,14 @@
     <key>Description</key>
     <string>Downloads the current release version of TotalTerminal and builds a package.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.pkg.TotalTerminal</string>
+    <string>com.github.mfcalan.pkg.TotalTerminal</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
         <string>TotalTerminal</string>
     </dict>
     <key>ParentRecipe</key>
-    <string>com.github.autopkg.download.TotalTerminal</string>
+    <string>com.github.jps3.download.TotalTerminal</string>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>Process</key>
