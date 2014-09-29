@@ -19,7 +19,7 @@
     <key>MinimumVersion</key>
     <string>0.2.5</string>
     <key>ParentRecipe</key>
-    <string>com.github.autopkg.pkg.fseventer</string>
+    <string>com.github.jps3.pkg.fseventer</string>
     <key>Process</key>
     <array>
       <dict>
