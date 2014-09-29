@@ -19,6 +19,15 @@
     <array>
         <dict>
             <key>Processor</key>
+            <string>AppDmgVersioner</string>
+            <key>Arguments</key>
+            <dict>
+                <key>dmg_path</key>
+                <string>%pathname%</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>Processor</key>
             <string>PkgRootCreator</string>
             <key>Arguments</key>
             <dict>
@@ -33,28 +42,13 @@
         </dict>
         <dict>
             <key>Processor</key>
-            <string>Unarchiver</string>
+            <string>Copier</string>
             <key>Arguments</key>
             <dict>
-                <key>archive_path</key>
-                <string>%pathname%</string>
+                <key>source_path</key>
+                <string>%pathname%/CarbonCopyCloner.app</string>
                 <key>destination_path</key>
-                <string>%pkgroot%/Applications</string>
-                <key>purge_destination</key>
-                <true/>
-            </dict>
-        </dict>
-        <dict>
-            <key>Comment</key>
-            <string>Get version from the app</string>
-            <key>Processor</key>
-            <string>Versioner</string>
-            <key>Arguments</key>
-            <dict>
-                <key>input_plist_path</key>
-                <string>%pkgroot%/Applications/CarbonCopyCloner.app/Contents/Info.plist</string>
-                <key>plist_version_key</key>
-                <string>CFBundleShortVersionString</string>
+                <string>%pkgroot%/Applications/CarbonCopyCloner.app</string>
             </dict>
         </dict>
         <dict>
@@ -62,12 +56,12 @@
             <string>PkgCreator</string>
             <key>Arguments</key>
             <dict>
+                <key>pkgname</key>
+                <string>%NAME%-%version%</string>
                 <key>pkg_request</key>
                 <dict>
-                    <key>pkgname</key>
-                    <string>%NAME%-%version%</string>
-                    <key>version</key>
-                    <string>%version%</string>
+                    <key>pkgdir</key>
+                    <string>%RECIPE_CACHE_DIR%</string>
                     <key>id</key>
                     <string>com.bombich.ccc</string>
                     <key>options</key>
