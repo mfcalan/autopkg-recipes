@@ -5,14 +5,14 @@
     <key>Description</key>
     <string>Downloads the current release version of CarbonCopyCloner and builds a package.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.pkg.CarbonCopyCloner</string>
+    <string>com.github.mfcalan.pkg.CarbonCopyCloner</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
         <string>CarbonCopyCloner</string>
     </dict>
     <key>ParentRecipe</key>
-    <string>com.github.autopkg.download.CarbonCopyCloner</string>
+    <string>com.github.mfcalan.download.CarbonCopyCloner</string>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>Process</key>

@@ -5,14 +5,14 @@
     <key>Description</key>
     <string>Downloads the current release version of ElmediaPlayer and builds a package.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.pkg.ElmediaPlayer</string>
+    <string>com.github.mfcalan.pkg.ElmediaPlayer</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
         <string>ElmediaPlayer</string>
     </dict>
     <key>ParentRecipe</key>
-    <string>com.github.autopkg.download.ElmediaPlayer</string>
+    <string>com.github.mfcalan.download.ElmediaPlayer</string>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>Process</key>

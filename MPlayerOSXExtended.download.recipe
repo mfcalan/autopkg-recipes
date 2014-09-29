@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the current release version of MPlayerOSXExtended.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.download.MPlayerOSXExtended</string>
+    <string>com.github.mfcalan.download.MPlayerOSXExtended</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>

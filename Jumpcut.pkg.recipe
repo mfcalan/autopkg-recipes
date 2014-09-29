@@ -5,14 +5,14 @@
     <key>Description</key>
     <string>Downloads the current release version of Jumpcut and builds a package.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.pkg.Jumpcut</string>
+    <string>com.github.mfcalan.pkg.Jumpcut</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
         <string>Jumpcut</string>
     </dict>
     <key>ParentRecipe</key>
-    <string>com.github.autopkg.download.Jumpcut</string>
+    <string>com.github.mfcalan.download.Jumpcut</string>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>Process</key>

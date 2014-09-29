@@ -5,14 +5,14 @@
     <key>Description</key>
     <string>Downloads the current release version of Flux and builds a package.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.pkg.Flux</string>
+    <string>com.github.mfcalan.pkg.Flux</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
         <string>Flux</string>
     </dict>
     <key>ParentRecipe</key>
-    <string>com.github.autopkg.download.Flux</string>
+    <string>com.github.mfcalan.download.Flux</string>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>Process</key>

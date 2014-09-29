@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the current release version of Flux.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.download.Flux</string>
+    <string>com.github.mfcalan.download.Flux</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>

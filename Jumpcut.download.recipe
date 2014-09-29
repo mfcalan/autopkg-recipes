@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the current release version of Jumpcut.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.download.Jumpcut</string>
+    <string>com.github.mfcalan.download.Jumpcut</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
