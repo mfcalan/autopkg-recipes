@@ -12,7 +12,7 @@
         <string>Flux</string>
     </dict>
     <key>ParentRecipe</key>
-    <string>com.github.mfcalan.download.Flux</string>
+    <string>com.github.keeleysam.recipes.Flux.download</string>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>Process</key>
