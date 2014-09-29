@@ -12,7 +12,7 @@
         <string>CarbonCopyCloner</string>
     </dict>
     <key>ParentRecipe</key>
-    <string>com.github.mfcalan.download.CarbonCopyCloner</string>
+    <string>com.github.keeleysam.recipes.CarbonCopyCloner.download</string>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>Process</key>
