@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.Handbrake</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Media Apps</string>
+		<key>NAME</key>
+		<string>Handbrake</string>
+		<key>SELFSERVE_POLICY</key>
+		<string>Handbrake</string>
+		<key>SMART_GROUP</key>
+		<string>*LEAVE_OUT*</string>
+		<key>arb_group_name</key>
+		<string>autopkg Test</string>
+		<key>SU_FEED_URL</key>
+		<string>http://handbrake.fr/appcast.x86_64.xml</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.jss.Handbrake</string>
+</dict>
+</plist>

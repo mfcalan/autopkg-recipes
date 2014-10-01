@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.fseventer</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Utilities</string>
+		<key>ID</key>
+		<string>com.fernlightning.fseventer.pkg</string>
+		<key>NAME</key>
+		<string>fseventer</string>
+		<key>SELFSERVE_POLICY</key>
+		<string>fseventer</string>
+		<key>SMART_GROUP</key>
+		<string>*LEAVE_OUT*</string>
+		<key>arb_group_name</key>
+		<string>autopkg Test</string>
+		<key>SU_URL</key>
+		<string>http://www.fernLightning.com/appcasts/fseventer.xml</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.mfcalan.jss.fseventer</string>
+</dict>
+</plist>
