@@ -9,7 +9,7 @@
     <key>Input</key>
     <dict>
       <key>CATEGORY</key>
-      <string>%NAME%</string>
+      <string>Uitlities</string>
       <key>SMART_GROUP</key>
       <string>LessThanMostRecent_%NAME%</string>
       <key>SELFSERVE_POLICY</key>
