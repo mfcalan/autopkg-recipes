@@ -9,7 +9,7 @@
     <key>Input</key>
     <dict>
       <key>CATEGORY</key>
-      <string>Media Apps</string>
+      <string>%NAME%</string>
       <key>SMART_GROUP</key>
       <string>LessThanMostRecent_%NAME%</string>
       <key>SELFSERVE_POLICY</key>
@@ -28,7 +28,7 @@
           <key>prod_name</key>
           <string>%NAME%</string>
           <key>category</key>
-          <string>%NAME%</string>
+          <string>%CATEGORY%</string>
           <key>smart_group</key>
           <string>%SMART_GROUP%</string>
           <key>selfserve_policy</key>
