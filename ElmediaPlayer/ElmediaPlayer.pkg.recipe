@@ -52,9 +52,9 @@
             <key>Arguments</key>
             <dict>
                 <key>input_plist_path</key>
-                <string>%pkgroot%/Applications/ElmediaPlayer.app/Contents/Info.plist</string>
+                <string>%pkgroot%/Applications/Elmedia Player.app/Contents/Info.plist</string>
                 <key>plist_version_key</key>
-                <string>CFBundleShortVersion</string>
+                <string>CFBundleShortVersionString</string>
             </dict>
         </dict>
         <dict>
