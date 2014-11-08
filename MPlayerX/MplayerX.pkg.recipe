@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the current release version of MplayerX and builds a package.</string>
     <key>Identifier</key>
-    <string>com.github.mfcalan.pkg.MplayerX</string>
+    <string>com.github.mfcalan.pkg.MPlayerX</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
