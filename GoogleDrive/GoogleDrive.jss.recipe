@@ -28,7 +28,7 @@
         <key>MinimumVersion</key>
         <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.mfcalan.pkg.GoogleDrive</string>
+        <string>com.github.autopkg.mfcalan.pkg.GoogleDrive</string>
         <key>Process</key>
         <array>
             <dict>
