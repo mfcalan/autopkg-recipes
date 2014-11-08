@@ -5,14 +5,14 @@
     <key>Description</key>
     <string>Downloads the current release version of CoconutBattery and builds a package.</string>
     <key>Identifier</key>
-    <string>com.github.mfcalan.pkg.CoconutBattery</string>
+    <string>com.github.mfcalan.pkg.coconutBattery</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>CoconutBattery</string>
+        <string>coconutBattery</string>
     </dict>
     <key>ParentRecipe</key>
-    <string>com.github.mfcalan.download.CoconutBattery</string>
+    <string>com.github.mfcalan.download.coconutBattery</string>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>Process</key>

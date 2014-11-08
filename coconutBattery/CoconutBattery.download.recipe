@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads the current release version of CoconutBattery.</string>
+    <string>Downloads the current release version of coconutBattery.</string>
     <key>Identifier</key>
-    <string>com.github.mfcalan.download.CoconutBattery</string>
+    <string>com.github.mfcalan.download.coconutBattery</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>CoconutBattery</string>
+        <string>coconutBattery</string>
         <key>SPARKLE_FEED_URL</key>
         <string>http://updates.coconut-flavour.com/coconutBatteryIntel.xml</string>
 	</dict>
