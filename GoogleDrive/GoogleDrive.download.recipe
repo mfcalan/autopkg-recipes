@@ -9,7 +9,7 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>Google Drive</string>
+        <string>googledrive</string>
         <key>DOWNLOAD_URL</key>
         <string>https://dl.google.com/drive/installgoogledrive.dmg</string>
     </dict>
@@ -23,7 +23,7 @@
                 <key>url</key>
                 <string>%DOWNLOAD_URL%</string>
                 <key>filename</key>
-                <string>%NAME%.dmg</string>
+                <string>install%NAME%.dmg</string>
             </dict>
             <key>Processor</key>
             <string>URLDownloader</string>
