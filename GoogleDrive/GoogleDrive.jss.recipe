@@ -15,7 +15,7 @@
             <key>POLICY_CATEGORY</key>
             <string>Productivity</string>
             <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
+            <string>%RECIPE_DIR%/GoogleDrivePolicy.xml</string>
             <key>ICON</key>
             <string>%RECIPE_DIR%/GoogleDrive.png</string>
             <key>GROUP_TEMPLATE</key>

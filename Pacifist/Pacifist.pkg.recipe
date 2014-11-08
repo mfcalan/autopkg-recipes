@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the current release version of Pacifist and builds a package.</string>
     <key>Identifier</key>
-    <string>com.github.arubdesu.pkg.Pacifist</string>
+    <string>com.github.mfcalan.pkg.Pacifist</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
