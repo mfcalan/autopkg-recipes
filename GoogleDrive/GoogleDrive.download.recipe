@@ -23,7 +23,7 @@
                 <key>url</key>
                 <string>%DOWNLOAD_URL%</string>
                 <key>filename</key>
-                <string>install%NAME%.dmg</string>
+                <string>%NAME%.dmg</string>
             </dict>
             <key>Processor</key>
             <string>URLDownloader</string>
