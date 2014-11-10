@@ -34,7 +34,7 @@ Plug-Ins/JavaAppletPlugin.plugin.</string>
             <key>GROUP_TEMPLATE</key>
             <string>%RECIPE_DIR%/OracleJavaSmartGroupTemplate.xml</string>
             <key>DESCRIPTION</key>
-            <string/>Install Java %VERSION%</string>
+            <string>Install Java %VERSION%</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
