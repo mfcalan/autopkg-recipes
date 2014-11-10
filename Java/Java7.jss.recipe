@@ -11,11 +11,11 @@ plugin version is used to replace the installer version, taken from the
 CFBundleVersion of the bundle at /Library/Internet
 Plug-Ins/JavaAppletPlugin.plugin.</string>
         <key>Identifier</key>
-        <string>com.github.mfcalan.jss.OracleJava7</string>
+        <string>com.github.mfcalan.jss.Java7</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>OracleJava7</string>
+            <string>Java7</string>
             <key>PKG_ID</key>
             <string>com.oracle.jre</string>
             <key>CATEGORY</key>
