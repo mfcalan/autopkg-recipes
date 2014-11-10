@@ -19,7 +19,7 @@
             <key>ICON</key>
             <string>%RECIPE_DIR%/AppCleaner.png</string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
+            <string>%RECIPE_DIR%/SmartGroupAllManagedClients.xml</string>
             <key>GROUP_NAME</key>
             <string>%NAME%-update-smart</string>
             <key>DESCRIPTION</key>
