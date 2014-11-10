@@ -26,13 +26,13 @@ Plug-Ins/JavaAppletPlugin.plugin.</string>
             <key>version</key>
             <string/>
             <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
+            <string>%RECIPE_DIR%/OracleJava8Policy.xml</string>
             <key>ICON</key>
             <string>%RECIPE_DIR%/OracleJava.png</string>
             <key>GROUP_NAME</key>
             <string>%NAME%-update-smart</string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/OracleJavaSmartGroupTemplate.xml</string>
+            <string>%RECIPE_DIR%/OracleJava8SmartGroupTemplate.xml</string>
             <key>DESCRIPTION</key>
             <string>Install Java %VERSION%</string>
         </dict>
