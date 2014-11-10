@@ -1,0 +1,14 @@
+<computer_group>
+    <name>%group_name%</name>
+    <is_smart>true</is_smart>
+    <criteria>
+        <criterion>
+            <name>SilverlightVersion</name>
+            <priority>0</priority>
+            <and_or>and</and_or>
+            <search_type>is not</search_type>
+            <value>%VERSION%</value>
+        </criterion>
+    </criteria>
+</computer_group>
+

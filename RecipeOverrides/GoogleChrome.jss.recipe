@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.GoogleChrome</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Internet Browsers</string>
+		<key>DESCRIPTION</key>
+		<string>Install Google Chrome %VERSION%</string>
+		<key>DOWNLOAD_URL</key>
+		<string>https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>%RECIPE_DIR%/SmartGroupAllManagedClients.xml</string>
+		<key>ICON</key>
+		<string>%RECIPE_DIR%/GoogleChrome.png</string>
+		<key>JSS_INVENTORY_NAME</key>
+		<string>Google Chrome.app</string>
+		<key>NAME</key>
+		<string>Google Chrome</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Internet Browsers</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>%RECIPE_DIR%/GoogleChromePolicy.xml</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.jss.googlechrome</string>
+</dict>
+</plist>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.Silverlight</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Plug-Ins</string>
+		<key>DESCRIPTION</key>
+		<string>Install %PROD_NAME% %VERSION%</string>
+		<key>DOWNLOAD_URL</key>
+		<string>http://www.microsoft.com/getsilverlight/handlers/getsilverlight.ashx</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>%RECIPE_DIR%/SilverlightSmartGroupTemplate.xml</string>
+		<key>ICON</key>
+		<string>%RECIPE_DIR%/Silverlight.png</string>
+		<key>NAME</key>
+		<string>Silverlight</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Plug-Ins</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>%RECIPE_DIR%/PolicyTemplate.xml</string>
+		<key>USER_AGENT</key>
+		<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/536.28.10 (KHTML, like Gecko) Version/6.0.3 Safari/536.28.10</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.jss.Silverlight</string>
+</dict>
+</plist>

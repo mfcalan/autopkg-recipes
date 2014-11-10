@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.Firefox</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Internet Browsers</string>
+		<key>DESCRIPTION</key>
+		<string>Install %PROD_NAME% %VERSION%</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>%RECIPE_DIR%/SmartGroupAllManagedClients.xml</string>
+		<key>LOCALE</key>
+		<string>en_US</string>
+		<key>NAME</key>
+		<string>Firefox</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Internet Browsers</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>%RECIPE_DIR%/PolicyTemplate.xml</string>
+		<key>RELEASE</key>
+		<string>latest</string>
+		<key>ICON</key>
+        <string>%RECIPE_DIR%/Firefox.png</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.jss.Firefox_EN</string>
+</dict>
+</plist>
