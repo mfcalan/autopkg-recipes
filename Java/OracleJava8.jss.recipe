@@ -15,11 +15,11 @@ Plug-Ins/JavaAppletPlugin.plugin.</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>OracleJava8</string>
+            <string>Java 8</string>
             <key>PKG_ID</key>
             <string>com.oracle.jre</string>
             <key>CATEGORY</key>
-            <string>Media Plugins and Viewers</string>
+            <string>Plug-Ins</string>
             <key>POLICY_CATEGORY</key>
             <string>Plug-Ins</string>
             <!--PlistReader w/o variable injection in AutoPkg requires this-->
@@ -34,7 +34,7 @@ Plug-Ins/JavaAppletPlugin.plugin.</string>
             <key>GROUP_TEMPLATE</key>
             <string>%RECIPE_DIR%/OracleJavaSmartGroupTemplate.xml</string>
             <key>DESCRIPTION</key>
-            <string/>
+            <string/>Install Java %VERSION%</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
