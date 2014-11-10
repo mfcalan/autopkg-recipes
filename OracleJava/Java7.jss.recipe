@@ -11,7 +11,7 @@ plugin version is used to replace the installer version, taken from the
 CFBundleVersion of the bundle at /Library/Internet
 Plug-Ins/JavaAppletPlugin.plugin.</string>
         <key>Identifier</key>
-        <string>com.github.mfcalan.jss.OracleJava7</string>
+        <string>com.github.mfcalan.jss.Java7</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
@@ -26,13 +26,13 @@ Plug-Ins/JavaAppletPlugin.plugin.</string>
             <key>version</key>
             <string/>
             <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/OracleJava7Policy.xml</string>
+            <string>%RECIPE_DIR%/Java7Policy.xml</string>
             <key>ICON</key>
-            <string>%RECIPE_DIR%/OracleJava.png</string>
+            <string>%RECIPE_DIR%/Java.png</string>
             <key>GROUP_NAME</key>
             <string>%NAME%-update-smart</string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/OracleJava7SmartGroupTemplate.xml</string>
+            <string>%RECIPE_DIR%/Java7SmartGroupTemplate.xml</string>
             <key>DESCRIPTION</key>
             <string>Install Java %VERSION%</string>
         </dict>
