@@ -1,7 +1,7 @@
 <policy>
     <general>
         <name>%PROD_NAME%</name>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
         <trigger_other>AdobeFlashPlayer</trigger_other>
         <frequency>Ongoing</frequency>
         <category>
