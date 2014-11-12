@@ -2,4 +2,4 @@ There are 2 policies for both Java 7 and Java 8.
 
 The first creates a DIY policy that is scoped to 10.10 clients for Java 8 and 10.9/10.8 clients for Java 7.
 
-The second creates/updates the smart groups. 
+The second creates/updates the smart groups that are scoped by the extension attribute.
