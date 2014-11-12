@@ -15,7 +15,7 @@
 		<key>GROUP_NAME</key>
 		<string>%NAME%-update-smart</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>%RECIPE_DIR%/SilverlightSmartGroupTemplate.xml</string>
+		<string>%RECIPE_DIR%/SmartGroupAllManagedClients.xml</string>
 		<key>ICON</key>
 		<string>%RECIPE_DIR%/Silverlight.png</string>
 		<key>NAME</key>

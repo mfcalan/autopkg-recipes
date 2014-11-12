@@ -1,13 +1,13 @@
 <computer_group>
-    <name>%group_name%</name>
+    <name>10.10 Clients</name>
     <is_smart>true</is_smart>
     <criteria>
         <criterion>
-            <name>SilverlightVersion</name>
+            <name>Operating System</name>
             <priority>0</priority>
             <and_or>and</and_or>
-            <search_type>is not</search_type>
-            <value>%VERSION%</value>
+            <search_type>like</search_type>
+            <value>10.10</value>
         </criterion>
     </criteria>
 </computer_group>
