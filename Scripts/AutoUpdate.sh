@@ -24,7 +24,7 @@
 
 app="$4"
 trigger="$5"
-process=`pgrep -f $app`
+process=`pgrep -f "$app"`
 	
 if [[ $process != "" ]]; then
    	echo "$app is running. Skipping auto update."
