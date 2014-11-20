@@ -31,6 +31,6 @@ if [[ $process != "" ]]; then
 else
     echo "$app is not running. Calling policy trigger $trigger."
     /usr/sbin/jamf policy -trigger $trigger
-    /Library/Application\ Support/JAMF/bin/Management\ Action.app/Contents/MacOS/Management\ Action -message "$app has been updated"
+    /Library/Application\ Support/JAMF/bin/Management\ Action.app/Contents/MacOS/Management\ Action -title "Software Updated" -message "$app has been updated"
     jamf recon
 fi
