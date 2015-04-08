@@ -5,7 +5,7 @@
         <key>Description</key>
         <string>Recipe to keep Google Chrome AutoUpdate JSS smart group updated.</string>
         <key>Identifier</key>
-        <string>com.github.mfcalan.jss.GoogleChromeSmartGroup</string>
+        <string>com.github.mfcalan.jss.GoogleChromeSmartGroupAutoUpdate</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
