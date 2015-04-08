@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>Productivity</string>
+		<string>SOFTWARE UPDATES</string>
 		<key>CULTURE_CODE</key>
 		<string>0409</string>
 		<key>DESCRIPTION</key>
@@ -21,7 +21,7 @@
 		<key>NAME</key>
 		<string>Microsoft Office 2011 Update</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Software Updates</string>
+		<string>SOFTWARE UPDATES</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>%RECIPE_DIR%/MSOffice2011UpdatePolicy.xml</string>
 		<key>VERSION</key>

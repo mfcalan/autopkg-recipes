@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>Media Apps</string>
+		<string>APPLICATIONS</string>
 		<key>DESCRIPTION</key>
 		<string>HandBrake is a tool for converting video from nearly any format to a selection of modern, widely supported codecs.</string>
 		<key>GROUP_NAME</key>
@@ -19,7 +19,7 @@
 		<key>NAME</key>
 		<string>HandBrake</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Media Apps</string>
+		<string>APPLICATIONS</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>%RECIPE_DIR%/PolicyTemplate.xml</string>
 		<key>SU_FEED_URL</key>

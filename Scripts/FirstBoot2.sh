@@ -200,11 +200,12 @@ AvailableUpdatesRestartRequired=`softwareupdate -l | grep restart`
 		/Library/Application\ Support/JAMF/bin/jamfHelper.app/Contents/MacOS/jamfHelper -windowType fs -description "All up to date...updating inventory" -icon /Library/Scripts/Robot.icns &
 		ScriptLogging "No Apple updates available"
 		jamf recon 2>&1 >> $log_location
-		/Library/Application\ Support/JAMF/bin/jamfHelper.app/Contents/MacOS/jamfHelper -windowType fs -description "Bye" -icon /Library/Scripts/RobotWaving.icns &
+		/Library/Application\ Support/JAMF/bin/jamfHelper.app/Contents/MacOS/jamfHelper -windowType fs -description "Just finishing up...almost there...be patient" -icon /Library/Scripts/RobotWaving.icns &
 		sleep 4
 		ScriptLogging "Killing jamfHelper"
 		killall jamfHelper
 		ScriptLogging "Removing launchagent and script"
+		killall jamfHelper
 		rm /Library/LaunchAgents/com.wk.FirstBootAppleSoftwareUpdates.plist
 		rm /Library/Scripts/FirstBootAppleSoftwareUpdates.sh
 	fi
@@ -227,7 +228,7 @@ else
 	sleep 3
 	/Library/Application\ Support/JAMF/bin/jamfHelper.app/Contents/MacOS/jamfHelper -windowType fs -description "Updating inventory...please wait" -icon /Library/Scripts/Robot.icns &
 	jamf recon >> $log_location
-	/Library/Application\ Support/JAMF/bin/jamfHelper.app/Contents/MacOS/jamfHelper -windowType fs -description "Bye" -icon /Library/Scripts/RobotWaving.icns &
+	/Library/Application\ Support/JAMF/bin/jamfHelper.app/Contents/MacOS/jamfHelper -windowType fs -description "Just finishing up...almost there...be patient" -icon /Library/Scripts/RobotWaving.icns &
 fi
 
 ScriptLogging "Restarting"

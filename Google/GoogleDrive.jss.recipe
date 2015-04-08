@@ -11,9 +11,9 @@
             <key>NAME</key>
             <string>Google Drive</string>
             <key>CATEGORY</key>
-            <string>Productivity</string>
+            <string>GOOGLE</string>
             <key>POLICY_CATEGORY</key>
-            <string>Productivity</string>
+            <string>GOOGLE</string>
             <key>POLICY_TEMPLATE</key>
             <string>%RECIPE_DIR%/GoogleDrivePolicy.xml</string>
             <key>ICON</key>

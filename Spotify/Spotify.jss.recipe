@@ -11,9 +11,9 @@
             <key>NAME</key>
             <string>Spotify</string>
             <key>CATEGORY</key>
-            <string>Media Apps</string>
+            <string>APPLICATIONS</string>
             <key>POLICY_CATEGORY</key>
-            <string>Media Apps</string>
+            <string>APPLICATIONS</string>
             <key>POLICY_TEMPLATE</key>
             <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
             <key>ICON</key>

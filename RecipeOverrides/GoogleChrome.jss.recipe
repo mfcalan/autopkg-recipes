@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>Internet Browsers</string>
+		<string>GOOGLE</string>
 		<key>DESCRIPTION</key>
 		<string>Install Google Chrome %VERSION%</string>
 		<key>DOWNLOAD_URL</key>
@@ -23,7 +23,7 @@
 		<key>NAME</key>
 		<string>Google Chrome</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Internet Browsers</string>
+		<string>GOOGLE</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>%RECIPE_DIR%/GoogleChromePolicy.xml</string>
 	</dict>
