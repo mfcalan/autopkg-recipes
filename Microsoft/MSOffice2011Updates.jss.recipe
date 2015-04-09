@@ -9,7 +9,7 @@
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>Office2011Update</string>
+            <string>Microsoft Office 2011 Update</string>
             <key>CATEGORY</key>
             <string>SOFTWARE UPDATES</string>
             <key>POLICY_CATEGORY</key>
@@ -23,7 +23,7 @@
             <key>GROUP_TEMPLATE</key>
             <string>%RECIPE_DIR%/SmartGroupAllManagedClients.xml</string>
             <key>DESCRIPTION</key>
-            <string>Install Microsoft Office %VERSION%</string>
+            <string>Update to Microsoft Office %VERSION%</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
