@@ -32,7 +32,7 @@ Plug-Ins/JavaAppletPlugin.plugin.</string>
             <key>GROUP_NAME</key>
             <string>%NAME%-update-smart</string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/SmartGroup10.10Clients.xml</string>
+            <string>%RECIPE_DIR%/SmartGroup10.9-10.10Clients.xml</string>
             <key>DESCRIPTION</key>
             <string>Install Java %VERSION%</string>
         </dict>
