@@ -44,6 +44,8 @@
                     <string>%POLICY_TEMPLATE%</string>
                     <key>self_service_icon</key>
                     <string>%ICON%</string>
+                    <key>self_service_description</key>
+                    <string>%DESCRIPTION%</string>
                     <key>groups</key>
                     <array>
                         <dict>
