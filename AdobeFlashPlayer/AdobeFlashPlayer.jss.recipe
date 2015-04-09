@@ -9,11 +9,11 @@
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>AdobeFlashPlayer</string>
+            <string>Adobe Flash Player</string>
             <key>CATEGORY</key>
-            <string>PLUGINS/DRIVERS</string>
+            <string>PLUGINS-DRIVERS</string>
             <key>POLICY_CATEGORY</key>
-            <string>PLUGINS/DRIVERS</string>
+            <string>PLUGINS-DRIVERS</string>
 			<key>DESCRIPTION</key>
 			<string>Install %PROD_NAME% %VERSION%</string>
             <key>POLICY_TEMPLATE</key>

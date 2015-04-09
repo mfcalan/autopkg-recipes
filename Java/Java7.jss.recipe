@@ -19,9 +19,9 @@ Plug-Ins/JavaAppletPlugin.plugin.</string>
             <key>PKG_ID</key>
             <string>com.oracle.jre</string>
             <key>CATEGORY</key>
-            <string>PLUGINS/DRIVERS</string>
+            <string>PLUGINS-DRIVERS</string>
             <key>POLICY_CATEGORY</key>
-            <string>PLUGINS/DRIVERS</string>
+            <string>PLUGINS-DRIVERS</string>
             <!--PlistReader w/o variable injection in AutoPkg requires this-->
             <key>version</key>
             <string/>
