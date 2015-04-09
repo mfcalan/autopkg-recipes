@@ -11,9 +11,9 @@
             <key>NAME</key>
             <string>Silverlight</string>
             <key>CATEGORY</key>
-            <string>PLUGINS/DRIVERS</string>
+            <string>PLUGINS-DRIVERS</string>
             <key>POLICY_CATEGORY</key>
-            <string>PLUGINS/DRIVERS</string>
+            <string>PLUGINS-DRIVERS</string>
             <key>POLICY_TEMPLATE</key>
             <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
             <key>ICON</key>
