@@ -9,7 +9,7 @@
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>APPLICATIONS</string>
+            <string>AppCleaner</string>
             <key>CATEGORY</key>
             <string>APPLICATIONS</string>
             <key>POLICY_CATEGORY</key>
