@@ -14,8 +14,6 @@
             <string>PLUGINS-DRIVERS</string>
             <key>POLICY_CATEGORY</key>
             <string>PLUGINS-DRIVERS</string>
-			<key>DESCRIPTION</key>
-			<string>Install %PROD_NAME% %VERSION%</string>
             <key>POLICY_TEMPLATE</key>
             <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
             <key>GROUP_NAME</key>
@@ -24,6 +22,8 @@
             <string>%RECIPE_DIR%/SmartGroupAllManagedClients.xml</string>
             <key>ICON</key>
             <string>%RECIPE_DIR%/AdobeFlashPlayer.png</string>
+            <key>DESCRIPTION</key>
+            <string>Install %PROD_NAME% %VERSION%</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
