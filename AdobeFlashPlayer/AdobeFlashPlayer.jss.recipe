@@ -9,13 +9,13 @@
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>Adobe Flash Player</string>
+            <string>AdobeFlashPlayer</string>
             <key>CATEGORY</key>
             <string>PLUGINS-DRIVERS</string>
             <key>POLICY_CATEGORY</key>
             <string>PLUGINS-DRIVERS</string>
             <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
+            <string>%RECIPE_DIR%/AdobeFlashPlayerPolicy.xml</string>
             <key>GROUP_NAME</key>
             <string>Adobe Flash Player-update-smart</string>
             <key>GROUP_TEMPLATE</key>
