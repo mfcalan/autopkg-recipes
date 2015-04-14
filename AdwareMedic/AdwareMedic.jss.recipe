@@ -24,6 +24,7 @@
             <string>%NAME%-update-smart</string>
             <key>DESCRIPTION</key>
             <string>Removes all known adware from your Mac. It is very simple to use, and should clean up your system in less than a minute, from start to finish. Just open the app, click the Scan for Adware button, and remove anything that is detected. That's it!</string>
+            <string>Install AdwareMedic %VERSION%</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
