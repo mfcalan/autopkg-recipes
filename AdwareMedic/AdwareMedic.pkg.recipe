@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads the current release version of AdwareMedic and builds a package. The installer package includes a preinstall script that will check for an existing AdwareMedic.app in /Applications and remove it if found.</string>
+    <string>Downloads the current release version of AdwareMedic and builds a package.</string>
     <key>Identifier</key>
-    <string>com.github.rtrouton.pkg.AdwareMedic</string>
+    <string>com.github.mfcalan.pkg.AdwareMedic</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
@@ -52,7 +52,7 @@
             <key>Arguments</key>
             <dict>
                 <key>input_plist_path</key>
-                <string>%pkgroot%/Applications/AdwareMedic.app/Contents/Info.plist</string>
+                <string>%pkgroot%/Applications/AppCleaner.app/Contents/Info.plist</string>
                 <key>plist_version_key</key>
                 <string>CFBundleShortVersionString</string>
             </dict>
@@ -69,11 +69,9 @@
                     <key>version</key>
                     <string>%version%</string>
                     <key>id</key>
-                    <string>com.thesafemac.adwaremedic</string>
+                    <string>com.freemacsoft.AppCleaner</string>
                     <key>options</key>
                     <string>purge_ds_store</string>
-                    <key>scripts</key>
-                    <string>Scripts</string>
                     <key>chown</key>
                     <array>
                         <dict>
