@@ -23,7 +23,7 @@
             <key>GROUP_NAME</key>
             <string>%NAME%-update-smart</string>
             <key>DESCRIPTION</key>
-            <string>TextWrangler is a powerful, general-purpose text editor. Install TextWrangler %version%</string>
+            <string>TextWrangler is a powerful, general-purpose text editor.</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>

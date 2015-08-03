@@ -23,7 +23,7 @@
             <key>GROUP_NAME</key>
             <string>%NAME%-update-smart</string>
             <key>DESCRIPTION</key>
-            <string>fseventer allows you to graphically observe filesystem changes using the same underlying API as Spotlight. Install fseventer %version%</string>
+            <string>fseventer allows you to graphically observe filesystem changes using the same underlying API as Spotlight.</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>

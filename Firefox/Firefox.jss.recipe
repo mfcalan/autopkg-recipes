@@ -19,7 +19,7 @@ combination is offered.</string>
             <key>CATEGORY</key>
             <string>APPLICATIONS</string>
             <key>DESCRIPTION</key>
-			<string>Install %PROD_NAME% %version%</string>
+			<string>Install Firefox</string>
             <key>POLICY_CATEGORY</key>
             <string>APPLICATIONS</string>
             <key>POLICY_TEMPLATE</key>

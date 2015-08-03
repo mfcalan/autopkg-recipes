@@ -23,7 +23,7 @@
             <key>GROUP_NAME</key>
             <string>%NAME%-update-smart</string>
             <key>DESCRIPTION</key>
-            <string>Mactracker provides detailed information on every Apple Macintosh computer ever made. Install Mactracker %version%</string>
+            <string>Mactracker provides detailed information on every Apple Macintosh computer ever made.</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>

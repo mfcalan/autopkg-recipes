@@ -23,7 +23,7 @@
             <key>GROUP_NAME</key>
             <string>%NAME%-update-smart</string>
             <key>DESCRIPTION</key>
-            <string>Flux makes the color of your computer's display adapt to the time of day, warm at night and like sunlight during the day. Install Flux %version%</string>
+            <string>Flux makes the color of your computer's display adapt to the time of day, warm at night and like sunlight during the day.</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>

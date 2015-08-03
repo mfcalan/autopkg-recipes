@@ -23,7 +23,7 @@
             <key>GROUP_TEMPLATE</key>
             <string>%RECIPE_DIR%/SmartGroupAllManagedClients.xml</string>
             <key>DESCRIPTION</key>
-            <string>Update Microsoft Office %version%</string>
+            <string>Update Microsoft Office</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
