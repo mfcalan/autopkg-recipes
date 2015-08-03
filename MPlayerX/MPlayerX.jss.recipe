@@ -23,7 +23,7 @@
             <key>GROUP_NAME</key>
             <string>%NAME%-update-smart</string>
             <key>DESCRIPTION</key>
-            <string>MPlayerX is armed by FFmpeg and MPlayer, which means it could handle almost any media format in the world for you and no extra plug-ins or codec packages are required.</string>
+            <string>MPlayerX is armed by FFmpeg and MPlayer, which means it could handle almost any media format in the world for you and no extra plug-ins or codec packages are required. Install MPlayerX %version%</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>

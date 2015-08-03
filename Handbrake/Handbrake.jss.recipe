@@ -23,7 +23,7 @@
             <key>GROUP_TEMPLATE</key>
             <string>%RECIPE_DIR%/SmartGroupAllManagedClients.xml</string>
             <key>DESCRIPTION</key>
-            <string>HandBrake is a tool for converting video from nearly any format to a selection of modern, widely supported codecs.</string>
+            <string>HandBrake is a tool for converting video from nearly any format to a selection of modern, widely supported codecs. Install Handbrake %version%</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>

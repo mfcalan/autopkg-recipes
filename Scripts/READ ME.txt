@@ -1,3 +1,0 @@
-FirstBootScripts to be used along with Casper policies to install apps and software updates at image time using custom triggers.
-
-AutoUpdate.sh to be used with Casper policies to automatically install apps on a users Mac using custom triggers providing the app is not running.
