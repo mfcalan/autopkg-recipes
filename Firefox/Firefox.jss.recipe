@@ -53,7 +53,7 @@ combination is offered.</string>
                     <key>self_service_icon</key>
                     <string>%ICON%</string>
                     <key>self_service_description</key>
-                    <string>%DESCRIPTION% Install %prod_name% %version%</string>
+                    <string>%DESCRIPTION% %version%</string>
                     <key>groups</key>
                     <array>
                         <dict>
