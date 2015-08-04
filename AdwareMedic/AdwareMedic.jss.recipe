@@ -16,8 +16,6 @@
             <string>SECURITY</string>
             <key>POLICY_TEMPLATE</key>
             <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
-            <key>VERSION</key>
-            <string>%version%</string>
             <key>ICON</key>
             <string>%RECIPE_DIR%/AdwareMedic.png</string>
             <key>GROUP_TEMPLATE</key>
@@ -38,6 +36,8 @@
                 <dict>
                     <key>prod_name</key>
                     <string>%NAME%</string>
+                    <key>version</key>
+					<string>%version%</string>
                     <key>category</key>
                     <string>%CATEGORY%</string>
                     <key>policy_category</key>
@@ -47,7 +47,7 @@
                     <key>self_service_icon</key>
                     <string>%ICON%</string>
                     <key>self_service_description</key>
-                    <string>%DESCRIPTION%</string>
+                    <string>%DESCRIPTION% Install %prod_name% %version%</string>
                     <key>groups</key>
                     <array>
                         <dict>
