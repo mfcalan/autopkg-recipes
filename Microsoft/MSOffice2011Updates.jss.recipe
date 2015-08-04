@@ -44,6 +44,8 @@
                     <string>%NAME%</string>
                     <key>category</key>
                     <string>%CATEGORY%</string>
+                    <key>display_name</key>
+					<string>%display_name%</string>                    
                     <key>policy_category</key>
                     <string>%POLICY_CATEGORY%</string>
                     <key>policy_template</key>
