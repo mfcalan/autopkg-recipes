@@ -23,7 +23,7 @@
             <key>ICON</key>
             <string>%RECIPE_DIR%/AdobeFlashPlayer.png</string>
             <key>DESCRIPTION</key>
-            <string>Install Adobe Flash Player %version%</string>
+            <string>Install Adobe Flash Player</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
