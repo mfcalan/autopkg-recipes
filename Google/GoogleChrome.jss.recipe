@@ -40,6 +40,8 @@
                     <string>%NAME%</string>
                     <key>jss_inventory_name</key>
                     <string>%JSS_INVENTORY_NAME%</string>
+                    <key>version</key>
+					<string>%version%</string>
                     <key>category</key>
                     <string>%CATEGORY%</string>
                     <key>policy_category</key>
@@ -49,7 +51,7 @@
                     <key>self_service_icon</key>
                     <string>%ICON%</string>
                     <key>self_service_description</key>
-                    <string>%DESCRIPTION%</string>
+                    <string>%DESCRIPTION% Install %prod_name% %version%</string>
                     <key>groups</key>
                     <array>
                         <dict>

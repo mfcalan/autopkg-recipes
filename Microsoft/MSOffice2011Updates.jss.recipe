@@ -23,7 +23,7 @@
             <key>GROUP_TEMPLATE</key>
             <string>%RECIPE_DIR%/SmartGroupAllManagedClients.xml</string>
             <key>DESCRIPTION</key>
-            <string>Update Microsoft Office</string>
+            <string>Update to Microsoft</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
@@ -51,7 +51,7 @@
                     <key>self_service_icon</key>
                     <string>%ICON%</string>
                     <key>self_service_description</key>
-                    <string>%DESCRIPTION%</string>
+                    <string>%DESCRIPTION% %display_name%</string>
                     <key>groups</key>
                     <array>
                         <dict>
