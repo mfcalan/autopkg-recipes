@@ -1,5 +1,5 @@
 <computer_group>
-    <name>10.9 and 10.10 Clients</name>
+    <name>OS: 10.9 and 10.10 Clients</name>
     <is_smart>true</is_smart>
     <criteria>
         <criterion>
