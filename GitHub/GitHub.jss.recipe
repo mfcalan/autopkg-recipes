@@ -15,7 +15,7 @@
             <key>POLICY_CATEGORY</key>
             <string>APPLICATIONS</string>
             <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
+            <string>%RECIPE_DIR%/GithubPolicy.xml</string>
             <key>ICON</key>
             <string>%RECIPE_DIR%/GitHub.png</string>
             <key>GROUP_TEMPLATE</key>
