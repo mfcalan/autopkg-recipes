@@ -7,7 +7,7 @@
         <key>IDENTIFIER</key>
         <string>com.github.mfcalan.download.GitHub</string>
         <key>NAME</key>
-        <string>GitHub</string>
+        <string>GitHub Desktop</string>
         <key>DOWNLOAD_URL</key>
         <string>https://central.github.com/mac/latest</string>
     </dict>
