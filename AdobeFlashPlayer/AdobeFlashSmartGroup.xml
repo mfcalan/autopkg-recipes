@@ -12,7 +12,8 @@
     </criteria>
 </computer_group>
 </computer_group>
-    <name>Autopkg: Adobe Flash Player-Autoupdate Group</name>
+    <name>Autopkg: Adobe Flash Player Autoupdate</name>
+    <is_smart>true</is_smart>
     <criteria>
         <criterion>
             <name>AdobeFlashVersion</name>
