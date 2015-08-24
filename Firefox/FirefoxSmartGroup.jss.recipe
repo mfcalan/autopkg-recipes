@@ -17,7 +17,7 @@
             <key>GROUP_TEMPLATE2</key>
             <string>%RECIPE_DIR%/SmartGroupAutoUpdate.xml</string>            
             <key>GROUP_NAME</key>
-            <string>Autopkg: %NAME% - Update</string>
+            <string>Autopkg: %NAME% - Needs update</string>
             <key>SECOND_GROUP_NAME</key>
             <string>Autopkg: %NAME% - Autoupdate</string>
         </dict>
