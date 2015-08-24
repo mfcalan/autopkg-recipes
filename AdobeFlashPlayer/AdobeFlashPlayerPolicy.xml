@@ -1,6 +1,6 @@
 <policy>
     <general>
-        <name>Adobe Flash Player</name>
+        <name>%PROD_NAME%</name>
         <enabled>true</enabled>
         <trigger_other>AdobeFlashPlayer</trigger_other>
         <frequency>Ongoing</frequency>
@@ -16,7 +16,7 @@
     </package_configuration>
     <scripts>
 		<!--Scripts added by JSSImporter-->
-	<scripts>	
+    </scripts>
     <self_service>
         <use_for_self_service>true</use_for_self_service>
 		<install_button_text>Install</install_button_text>
