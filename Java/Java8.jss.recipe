@@ -30,7 +30,7 @@ Plug-Ins/JavaAppletPlugin.plugin.</string>
             <key>ICON</key>
             <string>%RECIPE_DIR%/Java.png</string>
             <key>GROUP_NAME</key>
-            <string>OS: 10.9+ Clients</string>
+            <string>%NAME%-update-smart</string>
             <key>GROUP_TEMPLATE</key>
             <string>%RECIPE_DIR%/SmartGroup10.9+Clients.xml</string>
             <key>DESCRIPTION</key>
