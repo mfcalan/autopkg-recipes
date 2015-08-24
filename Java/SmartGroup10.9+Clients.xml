@@ -1,28 +1,5 @@
 <computer_group>
-    <name>%group_name%</name>
+    <name>OS: 10.9+ Clients</name>
     <is_smart>true</is_smart>
-    <criteria>
-        <criterion>
-            <name>Operating System</name>
-            <priority>0</priority>
-            <and_or>and</and_or>
-            <search_type>not like</search_type>
-            <value>10.6</value>
-        </criterion>
-        <criterion>
-            <name>Operating System</name>
-            <priority>1</priority>
-            <and_or>and</and_or>
-            <search_type>not like</search_type>
-            <value>10.7</value>
-        </criterion>
-        <criterion>
-            <name>Operating System</name>
-            <priority>2</priority>
-            <and_or>and</and_or>
-            <search_type>not like</search_type>
-            <value>10.8</value>
-        </criterion>
-    </criteria>
 </computer_group>
 
