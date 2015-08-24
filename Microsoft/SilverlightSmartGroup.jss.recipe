@@ -5,7 +5,7 @@
         <key>Description</key>
         <string>Keeps the JSS update smart group up to date.</string>
         <key>Identifier</key>
-        <string>com.github.mfcalan.jss.Silverlight</string>
+        <string>com.github.mfcalan.jss.SilverlightSmartGroup</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
