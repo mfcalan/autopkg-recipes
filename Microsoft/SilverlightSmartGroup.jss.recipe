@@ -3,26 +3,29 @@
 <plist version="1.0">
     <dict>
         <key>Description</key>
-        <string>Updates JSS update smart group.</string>
+        <string>Keeps the JSS update smart group up to date.</string>
         <key>Identifier</key>
-        <string>com.github.mfcalan.jss.Spotify</string>
+        <string>com.github.mfcalan.jss.Silverlight</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>Spotify</string>
+            <string>Silverlight</string>
             <key>CATEGORY</key>
-            <string>APPLICATIONS</string>
-            <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/UpdateSmartGroup.xml</string>
+            <string>PLUGINS-DRIVERS</string>
             <key>GROUP_NAME</key>
             <string>Autopkg: %NAME%-update</string>
+            <key>GROUP_TEMPLATE</key>
+            <string>%RECIPE_DIR%/SilverlightSmartGroupTemplate.xml</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.mfcalan.pkg.Spotify</string>
+        <string>com.github.autopkg.pkg.Silverlight</string>
         <key>Process</key>
         <array>
+            <!--The parent recipe results in a bundle-style package, which can be
+            problematic for non-AFP repos; eventually fix to wrap in a flat-pkg
+        -->
             <dict>
                 <key>Arguments</key>
                 <dict>
@@ -41,6 +44,15 @@
                             <true/>
                             <key>template_path</key>
                             <string>%GROUP_TEMPLATE%</string>
+                        </dict>
+                    </array>
+                    <key>extension_attributes</key>
+                    <array>
+                        <dict>
+                            <key>name</key>
+                            <string>SilverlightVersion</string>
+                            <key>ext_attribute_path</key>
+                            <string>%RECIPE_DIR%/SilverlightExtensionAttribute.xml</string>
                         </dict>
                     </array>
                 </dict>

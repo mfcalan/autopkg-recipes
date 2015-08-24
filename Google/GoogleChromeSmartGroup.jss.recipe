@@ -15,7 +15,7 @@
             <key>CATEGORY</key>
             <string>GOOGLE</string>
             <key>GROUP_NAME</key>
-            <string>%NAME%-update-smart</string>
+            <string>Autopkg: %NAME%-update</string>
             <key>GROUP_TEMPLATE</key>
             <string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
         </dict>

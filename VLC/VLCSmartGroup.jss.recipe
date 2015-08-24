@@ -5,7 +5,7 @@
         <key>Description</key>
         <string>Updates JSS update smart group.</string>
         <key>Identifier</key>
-        <string>com.github.mfcalan.jss.VLC</string>
+        <string>com.github.mfcalan.jss.VLCSmartGroup</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>

@@ -3,24 +3,24 @@
 <plist version="1.0">
     <dict>
         <key>Description</key>
-        <string>Updates JSS update smart group.</string>
+        <string>Uses parent pkg recipe to download the latest GoogleDrive and import it into the JSS.</string>
         <key>Identifier</key>
-        <string>com.github.mfcalan.jss.Cyberduck</string>
+        <string>com.github.mfcalan.jss.GoogleDriveSmartGroup</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>Cyberduck</string>
+            <string>Google Drive</string>
             <key>CATEGORY</key>
-            <string>APPLICATIONS</string>
+            <string>GOOGLE</string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/UpdateSmartGroup.xml</string>
+            <string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
             <key>GROUP_NAME</key>
             <string>Autopkg: %NAME%-update</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.autopkg.pkg.Cyberduck</string>
+        <string>com.github.autopkg.mfcalan.pkg.GoogleDrive</string>
         <key>Process</key>
         <array>
             <dict>
