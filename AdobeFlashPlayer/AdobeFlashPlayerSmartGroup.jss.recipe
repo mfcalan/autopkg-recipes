@@ -19,7 +19,7 @@
             <key>GROUP_TEMPLATE</key>
             <string>%RECIPE_DIR%/AdobeFlashSmartGroup.xml</string>
             <key>GROUP_TEMPLATE2</key>
-            <string>%RECIPE_DIR%AdobeFlashSmartGroupAutoUpdate.xml</string>
+            <string>%RECIPE_DIR%/AdobeFlashSmartGroupAutoUpdate.xml</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
