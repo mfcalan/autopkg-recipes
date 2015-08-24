@@ -10,5 +10,22 @@
             <value>%VERSION%</value>
         </criterion>
     </criteria>
+    <name>Autopkg: Adobe Flash Player-Autoupdate Group</name>
+    <criteria>
+        <criterion>
+            <name>AdobeFlashVersion</name>
+            <priority>0</priority>
+            <and_or>and</and_or>
+            <search_type>is not</search_type>
+            <value>%VERSION%</value>
+        </criterion>
+        <criterion>
+            <name>Computer Group</name>
+            <priority>1</priority>
+            <and_or>and</and_or>
+            <search_type>member of</search_type>
+            <value>Update Test Group - IT</value>
+        </criterion>
+    </criteria>
 </computer_group>
 
