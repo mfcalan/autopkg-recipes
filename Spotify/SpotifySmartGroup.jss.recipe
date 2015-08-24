@@ -3,35 +3,24 @@
 <plist version="1.0">
     <dict>
         <key>Description</key>
-        <string>Downloads the latest Oracle Java 7 JRE and builds a new package
-with correct version information.
-
-All Oracle JRE install packages have a version number of 1, so the actual
-plugin version is used to replace the installer version, taken from the
-CFBundleVersion of the bundle at /Library/Internet
-Plug-Ins/JavaAppletPlugin.plugin.</string>
+        <string>Updates JSS update smart group.</string>
         <key>Identifier</key>
-        <string>com.github.mfcalan.jss.Java7SmartGroup</string>
+        <string>com.github.mfcalan.jss.Spotify</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>Java 7</string>
-            <key>PKG_ID</key>
-            <string>com.oracle.jre</string>
+            <string>Spotify</string>
             <key>CATEGORY</key>
-            <string>PLUGINS-DRIVERS</string>
-            <!--PlistReader w/o variable injection in AutoPkg requires this-->
-            <key>version</key>
-            <string/>
-            <key>GROUP_NAME</key>
-            <string>%NAME%-update-smart</string>
+            <string>APPLICATIONS</string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/Java7SmartGroup.xml</string>
+            <string>%RECIPE_DIR%/UpdateSmartGroup.xml</string>
+            <key>GROUP_NAME</key>
+            <string>Autopkg: %NAME%-update</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.autopkg.pkg.OracleJava7</string>
+        <string>com.github.mfcalan.pkg.Spotify</string>
         <key>Process</key>
         <array>
             <dict>
@@ -39,6 +28,8 @@ Plug-Ins/JavaAppletPlugin.plugin.</string>
                 <dict>
                     <key>prod_name</key>
                     <string>%NAME%</string>
+                    <key>version</key>
+					<string>%version%</string>
                     <key>category</key>
                     <string>%CATEGORY%</string>
                     <key>groups</key>
@@ -50,15 +41,6 @@ Plug-Ins/JavaAppletPlugin.plugin.</string>
                             <true/>
                             <key>template_path</key>
                             <string>%GROUP_TEMPLATE%</string>
-                        </dict>
-                    </array>
-                    <key>extension_attributes</key>
-                    <array>
-                        <dict>
-                            <key>name</key>
-                            <string>OracleJavaVersion</string>
-                            <key>ext_attribute_path</key>
-                            <string>%RECIPE_DIR%/OracleJavaExtensionAttribute.xml</string>
                         </dict>
                     </array>
                 </dict>

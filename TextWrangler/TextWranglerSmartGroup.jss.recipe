@@ -5,22 +5,22 @@
         <key>Description</key>
         <string>Updates JSS update smart group.</string>
         <key>Identifier</key>
-        <string>com.github.mfcalan.jss.VLC</string>
+        <string>com.github.mfcalan.jss.TextWrangler</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>VLC</string>
+            <string>TextWrangler</string>
             <key>CATEGORY</key>
             <string>APPLICATIONS</string>
-            <key>GROUP_NAME</key>
-            <string>Autopkg: %NAME%-update</string>
             <key>GROUP_TEMPLATE</key>
             <string>%RECIPE_DIR%/UpdateSmartGroup.xml</string>
+            <key>GROUP_NAME</key>
+            <string>Autopkg: %NAME%-update</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.autopkg.pkg.VLC</string>
+        <string>com.github.autopkg.pkg.TextWrangler</string>
         <key>Process</key>
         <array>
             <dict>
