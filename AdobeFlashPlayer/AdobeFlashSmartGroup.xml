@@ -10,6 +10,8 @@
             <value>%VERSION%</value>
         </criterion>
     </criteria>
+</computer_group>
+</computer_group>
     <name>Autopkg: Adobe Flash Player-Autoupdate Group</name>
     <criteria>
         <criterion>
@@ -28,4 +30,3 @@
         </criterion>
     </criteria>
 </computer_group>
-
