@@ -1,6 +1,6 @@
 <policy>
     <general>
-        <name>%PROD_NAME%</name>
+        <name>Adobe Flash Player</name>
         <enabled>true</enabled>
         <trigger_other>AdobeFlashPlayer</trigger_other>
         <frequency>Ongoing</frequency>
