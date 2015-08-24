@@ -16,6 +16,7 @@
     </package_configuration>
     <scripts>
 		<!--Scripts added by JSSImporter-->
+	<scripts>	
      <self_service>
         <use_for_self_service>true</use_for_self_service>
 		<install_button_text>Install</install_button_text>
