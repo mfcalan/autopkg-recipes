@@ -41,6 +41,16 @@
                             <string>%GROUP_TEMPLATE%</string>
                         </dict>
                     </array>
+                    <array>
+                        <dict>
+                            <key>name</key>
+                            <string>Autopkg: Adobe Flash Player - Autoupdate</string>
+                            <key>smart</key>
+                            <true/>
+                            <key>template_path</key>
+                            <string>%RECIPE_DIR%/AdobeFlashSmartGroupAutoUpdate.xml</string>
+                        </dict>
+                    </array>
                     <key>extension_attributes</key>
                     <array>
                         <dict>
