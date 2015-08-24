@@ -1,6 +1,6 @@
 <computer_group>
     <name>%group_name%</name>
-    <name>OS: 10.9+ Clients</name>
+    <name>OS: Post 10.9 Clients</name>
     <is_smart>true</is_smart>
     <criteria>
         <criterion>
