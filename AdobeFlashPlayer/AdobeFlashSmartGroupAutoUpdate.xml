@@ -1,5 +1,5 @@
-</computer_group>
-    <name>Autopkg: Adobe Flash Player - Autoupdate</name>
+<computer_group>
+    <name>%second_group_name%</name>
     <is_smart>true</is_smart>
     <criteria>
         <criterion>
