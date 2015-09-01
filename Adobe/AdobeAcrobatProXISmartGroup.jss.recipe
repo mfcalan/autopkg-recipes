@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Updates the JSS smart groups for Acrobat</string>
+	<string>Updates the JSS smart groups for Adobe Acrobat Pro XI</string>
 	<key>Identifier</key>
-	<string>com.github.mfcalan.jss.AdobeAcrobatProXUpdateSmartGroup</string>
+	<string>com.github.mfcalan.jss.AdobeAcrobatProXIUpdateSmartGroup</string>
 	<key>Input</key>
 	<dict>
 		<key>MAJOR_VERSION</key>
@@ -23,14 +23,14 @@
         <key>SECOND_GROUP_NAME</key>
         <string>Autopkg: %NAME% - Autoupdate</string>
         <key>GROUP_TEMPLATE</key>
-        <string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
+        <string>%RECIPE_DIR%/AdobeAcrobatProXISmartGroup.xml</string>
         <key>GROUP_TEMPLATE2</key>
-        <string>%RECIPE_DIR%/SmartGroupAutoUpdate.xml</string>
+        <string>%RECIPE_DIR%/AdobeAcrobatProXISmartGroupAutoUpdate.xml</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.mfcalan.pkg.AdobeAcrobatProXUpdate</string>
+	<string>com.github.mfcalan.pkg.AdobeAcrobatProXIUpdate</string>
 	<key>Process</key>
 	<array>
 		<dict>

@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads updates for Adobe Acrobat Pro X or XI and imports them 
+	<string>Downloads updates for Adobe Acrobat Pro XI and imports them 
 into your JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.mfcalan.jss.AdobeAcrobatProXUpdate</string>
+	<string>com.github.mfcalan.jss.AdobeAcrobatProXIUpdate</string>
 	<key>Input</key>
 	<dict>
 		<key>MAJOR_VERSION</key>
@@ -22,20 +22,20 @@ into your JSS.</string>
 		<key>POLICY_CATEGORY</key>
 		<string>SOFTWARE UPDATES</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>%RECIPE_DIR%/AdobeAcrobatPolicyTemplate.xml</string>
+		<string>%RECIPE_DIR%/AdobeAcrobatProXIPolicyTemplate.xml</string>
 		<key>ICON</key>
 		<string>%RECIPE_DIR%/AdobeAcrobat.png</string>
 		<key>GROUP_NAME</key>
-		<string>AdobeAcrobatProXUpdate-smart</string>
+		<string>AdobeAcrobatProXIUpdate-smart</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>%RECIPE_DIR%/SmartGroupAllManagedClients.xml</string>
 		<key>DESCRIPTION</key>
-		<string>Update Adobe Acrobat to</string>
+		<string>Update Adobe Acrobat Pro XI to</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.mfcalan.pkg.AdobeAcrobatProXUpdate</string>
+	<string>com.github.mfcalan.pkg.AdobeAcrobatProXIUpdate</string>
 	<key>Process</key>
 	<array>
 		<dict>

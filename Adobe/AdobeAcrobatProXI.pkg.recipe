@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg.download.AdobeAcrobatProXUpdate</string>
+	<string>com.github.autopkg.download.AdobeAcrobatProXIUpdate</string>
 	<key>Description</key>
-	<string>Downloads updates for Adobe Acrobat Pro X or XI and copies pkg.</string>
+	<string>Downloads updates for Adobe Acrobat Pro XI and copies pkg.</string>
 	<key>Identifier</key>
-	<string>com.github.mfcalan.pkg.AdobeAcrobatProXUpdate</string>
+	<string>com.github.mfcalan.pkg.AdobeAcrobatProXIUpdate</string>
 	<key>Input</key>
 	<dict>
 		<key>Name</key>
-		<string>AdobeAcrobatProX_Update</string>
+		<string>AdobeAcrobatProXI_Update</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
