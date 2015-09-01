@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg.download.AdobeAcrobatProXIUpdate</string>
+	<string>com.github.autopkg.download.AdobeAcrobatProXUpdate</string>
 	<key>Description</key>
 	<string>Downloads updates for Adobe Acrobat Pro XI and copies pkg.</string>
 	<key>Identifier</key>
