@@ -10,7 +10,7 @@ into your JSS.</string>
 	<key>Input</key>
 	<dict>
 		<key>MAJOR_VERSION</key>
-		<string>10</string>
+		<string>11</string>
 		<key>VERSION</key>
 		<string>latest</string>
 		<key>NAME</key>
