@@ -23,9 +23,9 @@
         <key>SECOND_GROUP_NAME</key>
         <string>Autopkg: %NAME% - Autoupdate</string>
         <key>GROUP_TEMPLATE</key>
-        <string>%RECIPE_DIR%/AdobeAcrobatSmartGroup.xml</string>
+        <string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
         <key>GROUP_TEMPLATE2</key>
-        <string>%RECIPE_DIR%/AdobeAcrobatSmartGroupAutoUpdate.xml</string>
+        <string>%RECIPE_DIR%/SmartGroupAutoUpdate.xml</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
