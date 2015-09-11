@@ -18,7 +18,7 @@ into your JSS.</string>
        	<key>JSS_INVENTORY_NAME</key>
         <string>Adobe Acrobat Pro.app</string>
 		<key>CATEGORY</key>
-		<string>Adobe Updates</string>
+		<string>ADOBE</string>
 		<key>POLICY_CATEGORY</key>
 		<string>SOFTWARE UPDATES</string>
 		<key>POLICY_TEMPLATE</key>
