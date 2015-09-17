@@ -15,7 +15,7 @@ Plug-Ins/JavaAppletPlugin.plugin.</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>Java 8</string>
+            <string>Java</string>
             <key>PKG_ID</key>
             <string>com.oracle.jre</string>
             <key>CATEGORY</key>
