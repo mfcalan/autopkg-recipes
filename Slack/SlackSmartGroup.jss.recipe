@@ -15,7 +15,7 @@
             <key>GROUP_TEMPLATE</key>
             <string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>          
             <key>GROUP_NAME</key>
-            <string>Autopkg: %NAME% - Needs update</string>
+            <string>Autopkg: %NAME% - Needs update to %version%</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
@@ -36,7 +36,7 @@
                     <array>
                         <dict>
                             <key>name</key>
-                            <string>%GROUP_NAME% to %version%</string>
+                            <string>%GROUP_NAME%</string>
                             <key>smart</key>
                             <true/>
                             <key>template_path</key>
