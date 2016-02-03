@@ -18,7 +18,7 @@
             <key>version</key>
             <string/>
             <key>GROUP_NAME</key>
-            <string>Autopkg: %NAME% - Needs update</string>
+            <string>Apps: %NAME% - Needs update</string>
             <key>GROUP_TEMPLATE</key>
             <string>%RECIPE_DIR%/Java8SmartGroup.xml</string>
         </dict>
@@ -33,6 +33,8 @@
                 <dict>
                     <key>prod_name</key>
                     <string>%NAME%</string>
+                    <key>version</key>
+					<string>%version%</string>
                     <key>category</key>
                     <string>%CATEGORY%</string>
                     <key>groups</key>

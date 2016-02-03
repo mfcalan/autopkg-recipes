@@ -19,7 +19,7 @@
 		<key>CATEGORY</key>
 		<string>SOFTWARE UPDATES</string>
         <key>GROUP_NAME</key>
-        <string>Autopkg: %NAME% - Needs update</string>
+        <string>Apps: %NAME% - Needs update</string>
         <key>GROUP_TEMPLATE</key>
         <string>%RECIPE_DIR%/AdobeAcrobatProXISmartGroup.xml</string>
 	</dict>
