@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Updates the JSS Smart Group, no policy is created.</string>
+	<key>Identifier</key>
+	<string>com.github.mfcalan.jss.MSOffice2016UpdatesSmartGroup</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>SOFTWARE UPDATES</string>
+		<key>GROUP_NAME</key>
+		<string>Apps: %NAME% - Needs update</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>%RECIPE_DIR%/MSOffice2016UpdatesSmartGroup.xml</string>
+		<key>NAME</key>
+		<string>Microsoft Office 2016</string>
+		<key>OS_REQUIREMENTS</key>
+		<string>10.11.x,10.10.x</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.4.2</string>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.arubdesu-recipes.download.Office2016Suite</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>destination_path</key>
+				<string>%RECIPE_CACHE_DIR%/unpacked</string>
+				<key>flat_pkg_path</key>
+				<string>%pathname%</string>
+				<key>purge_destination</key>
+				<true/>
+				<key>skip_payload</key>
+				<true/>
+			</dict>
+			<key>Processor</key>
+			<string>FlatPkgUnpacker</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>pattern</key>
+				<string>%RECIPE_CACHE_DIR%/unpacked/*.pkg/PackageInfo</string>
+			</dict>
+			<key>Processor</key>
+			<string>FileFinder</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>packageinfo_path</key>
+				<string>%found_filename%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.jss-recipes.MSOffice2016VersionChecker/MSOffice2016VersionChecker</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>version</key>
+				<string>%VERSION%</string>
+				<key>groups</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>%GROUP_NAME% to %version%</string>
+						<key>smart</key>
+						<true/>
+						<key>template_path</key>
+						<string>%GROUP_TEMPLATE%</string>
+					</dict>
+				</array>
+				<key>pkg_path</key>
+				<string>%pathname%</string>
+				<key>prod_name</key>
+				<string>%NAME%</string>
+                <key>extension_attributes</key>
+                <array>
+                    <dict>
+                        <key>name</key>
+                        <string>MSOffice2016OutOfDate</string>
+                        <key>ext_attribute_path</key>
+                        <string>%RECIPE_DIR%/MSOffice2016ExtensionAttribute.xml</string>
+                    </dict>
+                </array>
+			</dict>
+			<key>Processor</key>
+			<string>JSSImporter</string>
+		</dict>
+	</array>
+</dict>
+</plist>
