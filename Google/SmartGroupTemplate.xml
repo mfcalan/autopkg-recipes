@@ -16,5 +16,9 @@
             <search_type>is not</search_type>
             <value>%VERSION%</value>
         </criterion>
-       </criteria>
+    </criteria>
+    <site>
+      	<id>5</id>
+      	<name>Portland</name>
+   	</site>
 </computer_group>

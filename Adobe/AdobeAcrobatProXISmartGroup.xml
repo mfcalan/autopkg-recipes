@@ -24,4 +24,8 @@
       		<value>%VERSION%</value>
     	</criterion>
     </criteria>
+    <site>
+      	<id>5</id>
+      	<name>Portland</name>
+   	</site>
 </computer_group>
