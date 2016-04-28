@@ -12,7 +12,7 @@ http://msdn.microsoft.com/en-us/library/ee825488(v=cs.20).aspx for a table of Cu
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>Office2011_update</string>
+        <string>autopkg.Office2011_update</string>
         <key>VERSION</key>
         <string>latest</string>
         <key>CULTURE_CODE</key>
