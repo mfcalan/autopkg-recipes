@@ -3,20 +3,36 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads the current release version of CoRD and builds a package.</string>
+    <string>Downloads Firefox disk image and builds a package.
+Some useful values for RELEASE are: 'latest', 'esr-latest', 'beta-latest'.
+LOCALE controls the language localization to be downloded.
+Examples include 'en-US', 'de', 'sv-SE', and 'zh-TW'
+See the following URLs for more info:
+    http://ftp.mozilla.org/pub/firefox/releases/latest/README.txt
+    http://ftp.mozilla.org/pub/firefox/releases/latest-esr/README.txt
+    http://ftp.mozilla.org/pub/firefox/releases/latest-beta/README.txt</string>
     <key>Identifier</key>
-    <string>com.github.mfcalan.pkg.CoRD</string>
+    <string>com.github.mfcalan.pkg.Firefox_EN</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>CoRD</string>
+        <string>Firefox</string>
     </dict>
-    <key>ParentRecipe</key>
-    <string>com.github.mfcalan.download.CoRD</string>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
+    <key>ParentRecipe</key>
+    <string>com.github.autopkg.download.firefox-rc-en_US</string>
     <key>Process</key>
     <array>
+        <dict>
+            <key>Processor</key>
+            <string>AppDmgVersioner</string>
+            <key>Arguments</key>
+            <dict>
+                <key>dmg_path</key>
+                <string>%pathname%</string>
+            </dict>
+        </dict>
         <dict>
             <key>Processor</key>
             <string>PkgRootCreator</string>
@@ -33,28 +49,13 @@
         </dict>
         <dict>
             <key>Processor</key>
-            <string>Unarchiver</string>
+            <string>Copier</string>
             <key>Arguments</key>
             <dict>
-                <key>archive_path</key>
-                <string>%pathname%</string>
+                <key>source_path</key>
+                <string>%pathname%/Firefox.app</string>
                 <key>destination_path</key>
-                <string>%pkgroot%/Applications</string>
-                <key>purge_destination</key>
-                <true/>
-            </dict>
-        </dict>
-        <dict>
-            <key>Comment</key>
-            <string>Get version from the app</string>
-            <key>Processor</key>
-            <string>Versioner</string>
-            <key>Arguments</key>
-            <dict>
-                <key>input_plist_path</key>
-                <string>%pkgroot%/Applications/CoRD.app/Contents/Info.plist</string>
-                <key>plist_version_key</key>
-                <string>CFBundleShortVersionString</string>
+                <string>%pkgroot%/Applications/Firefox.app</string>
             </dict>
         </dict>
         <dict>
@@ -62,14 +63,14 @@
             <string>PkgCreator</string>
             <key>Arguments</key>
             <dict>
+                <key>pkgname</key>
+                <string>autopkg.%NAME%-%version%</string>
                 <key>pkg_request</key>
                 <dict>
-                    <key>pkgname</key>
-                    <string>%NAME%-%version%</string>
-                    <key>version</key>
-                    <string>%version%</string>
+                    <key>pkgdir</key>
+                    <string>%RECIPE_CACHE_DIR%</string>
                     <key>id</key>
-                    <string>net.sf.cord</string>
+                    <string>org.mozilla.firefox.pkg</string>
                     <key>options</key>
                     <string>purge_ds_store</string>
                     <key>chown</key>

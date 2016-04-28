@@ -20,7 +20,7 @@
         <key>MinimumVersion</key>
         <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.autopkg.pkg.Silverlight</string>
+        <string>com.github.mfcalan.pkg.Silverlight</string>
         <key>Process</key>
         <array>
             <!--The parent recipe results in a bundle-style package, which can be

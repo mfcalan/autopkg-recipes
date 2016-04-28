@@ -39,7 +39,7 @@ Plug-Ins/JavaAppletPlugin.plugin.</string>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.autopkg.pkg.OracleJava8</string>
+        <string>com.github.mfcalan.pkg.Java8</string>
         <key>Process</key>
         <array>
             <dict>

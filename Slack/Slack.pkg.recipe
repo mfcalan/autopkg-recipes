@@ -67,7 +67,7 @@
 				<key>pkg_request</key>
 				<dict>
 					<key>pkgdir</key>
-					<string>%RECIPE_CACHE_DIR%</string>
+					<string>autopkg.%RECIPE_CACHE_DIR%</string>
 					<key>id</key>
 					<string>%PKG_ID%</string>
 					<key>options</key>
