@@ -31,6 +31,9 @@ http://msdn.microsoft.com/en-us/library/ee825488(v=cs.20).aspx for a table of Cu
             <dict>
                 <key>source_pkg</key>
                 <string>%pathname%/%pkg_name%</string>
+                <key>pkg_path</key>
+                <string>%RECIPE_CACHE_DIR%/autopkg.%pkg_name%.pkg</string>
+
             </dict>
         </dict>
     </array>
