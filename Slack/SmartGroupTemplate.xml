@@ -1,6 +1,10 @@
 <computer_group>
     <name>%group_name%</name>
     <is_smart>true</is_smart>
+    <site>
+      	<id>5</id>
+      	<name>Portland</name>
+   	</site>
     <criteria>
         <criterion>
             <name>Application Title</name>
@@ -17,8 +21,4 @@
             <value>%VERSION%</value>
         </criterion>
     </criteria>
-    <site>
-      	<id>5</id>
-      	<name>Portland</name>
-   	</site>
 </computer_group>
