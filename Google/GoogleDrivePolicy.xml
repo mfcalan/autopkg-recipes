@@ -7,6 +7,10 @@
         <category>
             <name>%POLICY_CATEGORY%</name>
         </category>
+        <site>
+            <id>5</id>
+            <name>Portland</name>
+        </site>
     </general>
 	<scope>
 		<!--Scope added by JSSImporter-->
