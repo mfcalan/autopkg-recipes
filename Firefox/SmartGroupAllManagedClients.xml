@@ -1,8 +1,9 @@
 <computer_group>
-    <name>Computers: All Managed Clients</name>
-    <is_smart>true</is_smart>
-    <site>
-      	<id>5</id>
-      	<name>Portland</name>
-    </site>
+  <id>1</id>
+  <name>Computers: All Managed Clients</name>
+  <is_smart>true</is_smart>
+  <site>
+    <id>5</id>
+    <name>Portland</name>
+  </site>
 </computer_group>

@@ -1,5 +1,6 @@
 <policy>
     <general>
+        <id>9076</id>
         <name>Adobe Flash Player</name>
         <enabled>true</enabled>
         <trigger_other>AdobeFlashPlayer</trigger_other>
@@ -12,10 +13,10 @@
             <name>Portland</name>
         </site>
     </general>
-	<scope>
+    <scope>
 		<!--Scope added by JSSImporter-->
-	</scope>
-	<package_configuration>
+    </scope>
+    <package_configuration>
 		<!--Package added by JSSImporter-->
     </package_configuration>
     <scripts>
