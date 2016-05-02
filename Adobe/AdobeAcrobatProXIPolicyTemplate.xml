@@ -1,6 +1,6 @@
 <policy>
     <general>
-        <name>%PROD_NAME%</name>
+        <name>Adobe Acrobat Pro XI Update</name>
         <enabled>true</enabled>
         <trigger_other>AdobeAcrobatProXIUpdate</trigger_other>
         <frequency>Ongoing</frequency>

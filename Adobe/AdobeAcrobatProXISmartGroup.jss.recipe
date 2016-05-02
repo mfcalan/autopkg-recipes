@@ -13,13 +13,13 @@
 		<key>VERSION</key>
 		<string>latest</string>
 		<key>NAME</key>
-		<string>Adobe Acrobat Pro XI</string>
+		<string>AdobeAcrobatProXI</string>
        	<key>JSS_INVENTORY_NAME</key>
         <string>Adobe Acrobat Pro.app</string>
 		<key>CATEGORY</key>
 		<string>SOFTWARE UPDATES</string>
         <key>GROUP_NAME</key>
-        <string>Apps: %NAME% - Needs update</string>
+        <string>Apps: Adobe Acrobat Pro XI - Needs update</string>
         <key>GROUP_TEMPLATE</key>
         <string>%RECIPE_DIR%/AdobeAcrobatProXISmartGroup.xml</string>
 	</dict>
