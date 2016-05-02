@@ -5,7 +5,7 @@
         <trigger_other>AdobeAcrobatProXIUpdate</trigger_other>
         <frequency>Ongoing</frequency>
         <category>
-            <name>ADOBE</name>
+            <name>SOFTWARE UPDATES</name>
         </category>
         <site>
             <id>5</id>
