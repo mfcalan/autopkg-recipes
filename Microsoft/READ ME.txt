@@ -1,5 +1,0 @@
-This recipe will download, package and import the latest version to the JSS.
-
-An extension attribute is added and a smart group is created scoped to the extension attribute.
-
-No policy will be created.

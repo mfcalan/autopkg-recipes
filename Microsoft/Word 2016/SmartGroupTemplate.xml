@@ -1,0 +1,31 @@
+<computer_group>
+    <name>%group_name%</name>
+    <is_smart>true</is_smart>
+    <site>
+      	<id>5</id>
+      	<name>Portland</name>
+    </site>    
+    <criteria>
+        <criterion>
+            <name>Application Title</name>
+            <priority>0</priority>
+            <and_or>and</and_or>
+            <search_type>has</search_type>
+            <value>%JSS_INVENTORY_NAME%</value>
+        </criterion>
+        <criterion>
+            <name>Application Version</name>
+            <priority>1</priority>
+            <and_or>and</and_or>
+            <search_type>is not</search_type>
+            <value>%VERSION%</value>
+        </criterion>
+        <criterion>
+            <name>Application Version</name>
+            <priority>2</priority>
+            <and_or>and</and_or>
+            <search_type>not like</search_type>
+            <value>14.</value>
+        </criterion>
+    </criteria>
+</computer_group>
