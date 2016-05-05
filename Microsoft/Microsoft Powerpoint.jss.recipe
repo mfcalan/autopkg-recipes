@@ -30,7 +30,7 @@
 		<key>POLICY_CATEGORY</key>
 		<string>APPLICATIONS</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>PolicyTemplate.xml</string>
+		<string>PowerPointPolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Microsoft PowerPoint is a slide show presentation program currently developed by Microsoft.</string>
 		<key>SELF_SERVICE_ICON</key>
