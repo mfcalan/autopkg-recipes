@@ -30,7 +30,7 @@
 		<key>POLICY_CATEGORY</key>
 		<string>APPLICATIONS</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>PolicyTemplate.xml</string>
+		<string>OutlookPolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Microsoft Outlook is a personal information manager from Microsoft, available as a part of the Microsoft Office suite. Although often used mainly as an email application, it also includes a calendar, task manager, contact manager, note taking, journal, and web browsing.</string>
 		<key>SELF_SERVICE_ICON</key>
