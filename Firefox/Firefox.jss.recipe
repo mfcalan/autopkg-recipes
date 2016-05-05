@@ -29,7 +29,7 @@ combination is offered.</string>
             <key>GROUP_TEMPLATE</key>
             <string>%RECIPE_DIR%/SmartGroupAllManagedClients.xml</string>
             <key>GROUP_NAME</key>
-            <string>%NAME%-update-smart</string>
+            <string>None</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>

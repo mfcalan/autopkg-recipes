@@ -19,7 +19,7 @@
             <key>ICON</key>
             <string>%RECIPE_DIR%/VLC.png</string>
             <key>GROUP_NAME</key>
-            <string>%NAME%-update-smart</string>
+            <string>None</string>
             <key>GROUP_TEMPLATE</key>
             <string>%RECIPE_DIR%/SmartGroupAllManagedClients.xml</string>
             <key>DESCRIPTION</key>

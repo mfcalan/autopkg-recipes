@@ -21,7 +21,7 @@
             <key>GROUP_TEMPLATE</key>
             <string>%RECIPE_DIR%/SmartGroupAllManagedClients.xml</string>
             <key>GROUP_NAME</key>
-            <string>%NAME%-update-smart</string>
+            <string>None</string>
             <key>DESCRIPTION</key>
             <string>GitHub is a Git repository web-based hosting service which offers all of the distributed revision control and source code management (SCM) functionality of Git as well as adding its own features.</string>
         </dict>

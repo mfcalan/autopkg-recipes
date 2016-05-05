@@ -21,7 +21,7 @@
             <key>GROUP_TEMPLATE</key>
             <string>%RECIPE_DIR%/SmartGroupAllManagedClients.xml</string>
             <key>GROUP_NAME</key>
-            <string>%NAME%-update-smart</string>
+            <string>None</string>
             <key>DESCRIPTION</key>
             <string>AppCleaner is a small application which allows you to thoroughly uninstall unwanted apps.</string>
         </dict>

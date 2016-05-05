@@ -21,7 +21,7 @@
             <key>GROUP_TEMPLATE</key>
             <string>%RECIPE_DIR%/SmartGroupAllManagedClients.xml</string>
             <key>GROUP_NAME</key>
-            <string>%NAME%-update-smart</string>
+            <string>None</string>
             <key>DESCRIPTION</key>
             <string>Shows you live information about your battery such as how often it was charged and how is the current maximum capacity in relation to the original capacity your battery had when it left the factory.</string>
         </dict>

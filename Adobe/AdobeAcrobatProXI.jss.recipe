@@ -20,13 +20,13 @@ into your JSS.</string>
 		<key>CATEGORY</key>
 		<string>ADOBE</string>
 		<key>POLICY_CATEGORY</key>
-		<string>SOFTWARE UPDATES</string>
+		<string>ADOBE</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>%RECIPE_DIR%/AdobeAcrobatProXIPolicyTemplate.xml</string>
 		<key>ICON</key>
 		<string>%RECIPE_DIR%/AdobeAcrobat.png</string>
 		<key>GROUP_NAME</key>
-		<string>AdobeAcrobatProXIUpdate-smart</string>
+		<string>None</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>%RECIPE_DIR%/SmartGroupAllManagedClients.xml</string>
 		<key>DESCRIPTION</key>

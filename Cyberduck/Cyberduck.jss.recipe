@@ -21,7 +21,7 @@
             <key>GROUP_TEMPLATE</key>
             <string>%RECIPE_DIR%/SmartGroupAllManagedClients.xml</string>
             <key>GROUP_NAME</key>
-            <string>%NAME%-update-smart</string>
+            <string>None</string>
             <key>DESCRIPTION</key>
             <string>Cyberduck is an open source client for FTP and SFTP, WebDAV, OpenStack Swift, and Amazon S3.</string>
         </dict>

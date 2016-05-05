@@ -18,7 +18,7 @@
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>APPLICATIONS</string>
+		<string>MICROSOFT</string>
 		<key>GROUP_NAME</key>
 		<string>None</string>
 		<key>GROUP_TEMPLATE</key>
@@ -28,7 +28,7 @@
 		<key>OS_REQUIREMENTS</key>
 		<string>10.11.x,10.10.x</string>
 		<key>POLICY_CATEGORY</key>
-		<string>APPLICATIONS</string>
+		<string>MICROSOFT</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>PowerPointPolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>

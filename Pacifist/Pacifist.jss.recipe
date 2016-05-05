@@ -21,7 +21,7 @@
             <key>GROUP_TEMPLATE</key>
             <string>%RECIPE_DIR%/SmartGroupAllManagedClients.xml</string>
             <key>GROUP_NAME</key>
-            <string>%NAME%-update-smart</string>
+            <string>None</string>
             <key>DESCRIPTION</key>
             <string>Pacifist opens up .pkg installer packages, .dmg disk images, .zip, .tar. tar.gz, .tar.bz2, .pax, and .xar archives and more, and lets you extract or install individual files out of them.</string>
         </dict>

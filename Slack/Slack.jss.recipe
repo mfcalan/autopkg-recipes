@@ -23,7 +23,7 @@ https://github.com/homebysix/auto-update-magic</string>
 		<key>DESCRIPTION</key>
 		<string>Slack is a platform for team communication: everything in one place, instantly searchable, available wherever you go.</string>
 		<key>GROUP_NAME</key>
-		<string>%NAME%-update-smart</string>
+		<string>None</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>%RECIPE_DIR%/SmartGroupAllManagedClients.xml</string>
 		<key>ICON</key>

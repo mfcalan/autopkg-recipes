@@ -9,9 +9,9 @@
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>SOFTWARE UPDATES</string>
+		<string>ADOBE</string>
 		<key>GROUP_NAME</key>
-		<string>Apps: Adobe Acrobat DC - Needs update</string>
+		<string>None</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>%RECIPE_DIR%/SmartGroupAllManagedClients.xml</string>
 		<key>NAME</key>
@@ -19,7 +19,7 @@
 		<key>OS_REQUIREMENTS</key>
 		<string>10.11.x,10.10.x,10.9.x</string>
 		<key>POLICY_CATEGORY</key>
-		<string>SOFTWARE UPDATES</string>
+		<string>ADOBE</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
