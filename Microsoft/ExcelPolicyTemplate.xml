@@ -29,4 +29,7 @@
     <maintenance>
         <recon>true</recon>
     </maintenance>
+    <files_processes>
+        <run_command>jamf policy -trigger MSOffice2016Licensing</run_command>
+    </files_processes>
 </policy>
