@@ -33,7 +33,7 @@
 				<key>destination_path</key>
 				<string>%RECIPE_CACHE_DIR%/unpacked</string>
 				<key>flat_pkg_path</key>
-				<string>%pathname%</string>
+				<string>%pkg_path%</string>
 				<key>purge_destination</key>
 				<true/>
 				<key>skip_payload</key>
