@@ -1,9 +1,9 @@
 <policy>
     <general>
-    	<id>9533</id>
-        <name>%PROD_NAME%</name>
+    	<id>9441</id>
+        <name>Adobe Acrobat DC Update</name>
         <enabled>true</enabled>
-        <trigger_other>AdobeAcrobatDC</trigger_other>
+        <trigger_other>AdobeAcrobatDCUpdate</trigger_other>
         <frequency>Ongoing</frequency>
         <category>
             <name>%POLICY_CATEGORY%</name>
