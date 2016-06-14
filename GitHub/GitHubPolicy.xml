@@ -1,5 +1,6 @@
 <policy>
     <general>
+    	<id>9074</id>
         <name>%PROD_NAME%</name>
         <enabled>true</enabled>
         <trigger_other>GithubDesktop</trigger_other>

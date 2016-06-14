@@ -1,5 +1,6 @@
 <policy>
     <general>
+    	<id>9434</id>
         <name>Adobe Acrobat Pro XI Update</name>
         <enabled>true</enabled>
         <trigger_other>AdobeAcrobatProXIUpdate</trigger_other>

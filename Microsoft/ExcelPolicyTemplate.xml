@@ -1,5 +1,6 @@
 <policy>
     <general>
+    	<id>9447</id>
         <name>%PROD_NAME%</name>
         <enabled>true</enabled>
         <trigger_other>Excel</trigger_other>

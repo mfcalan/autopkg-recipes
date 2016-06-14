@@ -1,5 +1,6 @@
 <policy>
     <general>
+    	<id>9444</id>
         <name>%PROD_NAME%</name>
         <enabled>true</enabled>
         <trigger_other>PowerPoint</trigger_other>

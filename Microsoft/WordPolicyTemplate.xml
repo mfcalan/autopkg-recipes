@@ -1,5 +1,6 @@
 <policy>
     <general>
+    	<id>9449</id>
         <name>%PROD_NAME%</name>
         <enabled>true</enabled>
         <trigger_other>Word</trigger_other>
