@@ -21,7 +21,7 @@
 		<key>POLICY_CATEGORY</key>
 		<string>ADOBE</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>PolicyTemplate.xml</string>
+		<string>AdobeAcrobatDCPolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Speed business processes and let employees work anywhere with all-new Adobe Acrobat DC products and Adobe Document Cloud.</string>
 		<key>SELF_SERVICE_ICON</key>
