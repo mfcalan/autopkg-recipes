@@ -1,6 +1,5 @@
 <computer_group>
-	<id>675</id>
-    <name>Apps: Adobe Acrobat Pro XI - Needs update</name>
+    <name>Apps: Adobe Acrobat Pro XI - Needs update to %VERSION%</name>
     <is_smart>true</is_smart>
     <criteria>
         <criterion>
