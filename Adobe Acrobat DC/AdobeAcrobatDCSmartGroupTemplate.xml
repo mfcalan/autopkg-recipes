@@ -1,10 +1,6 @@
 <computer_group>
 	<name>Apps: Adobe Acrobat DC - Needs update</name>
 	<is_smart>true</is_smart>
-	<site>
-		<id>5</id>
-		<name>Portland</name>
-	</site>
 	<criteria>
 		<criterion>
 			<name>Application Title</name>
