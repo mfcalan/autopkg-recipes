@@ -1,6 +1,5 @@
 <policy>
     <general>
-    	<id>8882</id>
         <name>%PROD_NAME%</name>
         <enabled>true</enabled>
         <trigger_other>%PROD_NAME%</trigger_other>
