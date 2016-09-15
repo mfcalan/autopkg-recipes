@@ -3,30 +3,24 @@
 <plist version="1.0">
     <dict>
         <key>Description</key>
-        <string>Downloads the latest Handbrake disk image, creates a package and uploads it to the jss.</string>
+        <string>Recipe to keep Google Chrome JSS smart group updated.</string>
         <key>Identifier</key>
-        <string>com.github.mfcalan.jss.Handbrake</string>
+        <string>com.github.mfcalan.jss.GoogleChromeSmartGroup</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>HandBrake</string>
+            <string>Google Chrome</string>
+            <key>JSS_INVENTORY_NAME</key>
+			<string>Google Chrome.app</string>
             <key>CATEGORY</key>
-            <string>APPLICATIONS</string>
-            <key>POLICY_CATEGORY</key>
-            <string>APPLICATIONS</string>
-            <key>POLICY_TEMPLATE</key>
-            <string>PolicyTemplate.xml</string>
-            <key>GROUP_NAME</key>
-            <string>Computers: PDX All Managed Clients</string>
+            <string>GOOGLE</string>
             <key>GROUP_TEMPLATE</key>
             <string>SmartGroupTemplate.xml</string>
-            <key>DESCRIPTION</key>
-            <string>HandBrake is a tool for converting video from nearly any format to a selection of modern, widely supported codecs.</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.mfcalan.pkg.Handbrake</string>
+        <string>com.github.mfcalan.pkg.googlechrome</string>
         <key>Process</key>
         <array>
             <dict>
@@ -38,17 +32,13 @@
 					<string>%version%</string>
                     <key>category</key>
                     <string>%CATEGORY%</string>
-                    <key>policy_category</key>
-                    <string>%POLICY_CATEGORY%</string>
-                    <key>policy_template</key>
-                    <string>%POLICY_TEMPLATE%</string>
-                    <key>self_service_description</key>
-                    <string>%DESCRIPTION% Install %prod_name% %version%</string>
                     <key>groups</key>
                     <array>
                         <dict>
                             <key>name</key>
-                            <string>%GROUP_NAME%</string>
+                            <string>Apps: Google Chrome - Needs update to %VERSION%</string>
+                            <key>category</key>
+                    		<string>%CATEGORY%</string>
                             <key>smart</key>
                             <true/>
                             <key>template_path</key>

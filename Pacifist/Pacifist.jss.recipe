@@ -15,13 +15,11 @@
             <key>POLICY_CATEGORY</key>
             <string>APPLICATIONS</string>
             <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
-            <key>ICON</key>
-            <string>%RECIPE_DIR%/Pacifist.png</string>
+            <string>PolicyTemplate.xml</string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/SmartGroupAllManagedClients.xml</string>
+            <string>SmartGroupTemplate.xml</string>
             <key>GROUP_NAME</key>
-            <string>None</string>
+            <string>Computers: PDX All Managed Clients</string>
             <key>DESCRIPTION</key>
             <string>Pacifist opens up .pkg installer packages, .dmg disk images, .zip, .tar. tar.gz, .tar.bz2, .pax, and .xar archives and more, and lets you extract or install individual files out of them.</string>
         </dict>
@@ -44,8 +42,6 @@
                     <string>%POLICY_CATEGORY%</string>
                     <key>policy_template</key>
                     <string>%POLICY_TEMPLATE%</string>
-                    <key>self_service_icon</key>
-                    <string>%ICON%</string>
                     <key>self_service_description</key>
                     <string>%DESCRIPTION% Install %prod_name% %version%</string>
                     <key>groups</key>

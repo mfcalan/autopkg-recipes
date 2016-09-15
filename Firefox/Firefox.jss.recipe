@@ -18,18 +18,16 @@ combination is offered.</string>
             <string>Firefox</string>
             <key>CATEGORY</key>
             <string>APPLICATIONS</string>
-            <key>DESCRIPTION</key>
-			<string>Install Firefox</string>
             <key>POLICY_CATEGORY</key>
             <string>APPLICATIONS</string>
             <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
-            <key>ICON</key>
-            <string>%RECIPE_DIR%/Firefox.png</string>
+            <string>PolicyTemplate.xml</string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/SmartGroupAllManagedClients.xml</string>
+            <string>SmartGroupAllManagedClients.xml</string>
             <key>GROUP_NAME</key>
-            <string>None</string>
+            <string>Computers: PDX All Managed Clients</string>
+            <key>DESCRIPTION</key>
+            <string>Install Firefox</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
@@ -50,8 +48,6 @@ combination is offered.</string>
                     <string>%POLICY_CATEGORY%</string>
                     <key>policy_template</key>
                     <string>%POLICY_TEMPLATE%</string>
-                    <key>self_service_icon</key>
-                    <string>%ICON%</string>
                     <key>self_service_description</key>
                     <string>%DESCRIPTION% %version%</string>
                     <key>groups</key>

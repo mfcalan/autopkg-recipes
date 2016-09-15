@@ -3,32 +3,63 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest Cyberduck and builds a package, then uploads to the JSS.</string>
+	<string>Finds latest Microsoft AutoUpdate (MAU) installer, downloads the pkg and copies it to the JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.mfcalan.jss.Cyberduck</string>
+	<string>com.github.mfcalan.jss.MAU</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>APPLICATIONS</string>
+		<string>MICROSOFT</string>
 		<key>GROUP_NAME</key>
 		<string>Computers: PDX All Managed Clients</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>SmartGroupTemplate.xml</string>
 		<key>NAME</key>
-		<string>Cyberduck</string>
+		<string>MAU</string>
 		<key>POLICY_CATEGORY</key>
-		<string>APPLICATIONS</string>
+		<string>MICROSOFT</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>PolicyTemplate.xml</string>
-		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Cyberduck is an open source client for FTP and SFTP, WebDAV, OpenStack Swift, and Amazon S3.</string>
+		<string>MAUPolicyTemplate.xml</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>0.4.0</string>
+	<string>0.4.2</string>
 	<key>ParentRecipe</key>
-	<string>com.github.mfcalan.pkg.Cyberduck</string>
+	<string>com.github.mfcalan.pkg.MAU</string>
 	<key>Process</key>
 	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>destination_path</key>
+				<string>%RECIPE_CACHE_DIR%/unpacked</string>
+				<key>flat_pkg_path</key>
+				<string>%pkg_path%</string>
+				<key>purge_destination</key>
+				<true/>
+				<key>skip_payload</key>
+				<true/>
+			</dict>
+			<key>Processor</key>
+			<string>FlatPkgUnpacker</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>pattern</key>
+				<string>%RECIPE_CACHE_DIR%/unpacked/*.pkg/PackageInfo</string>
+			</dict>
+			<key>Processor</key>
+			<string>FileFinder</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>packageinfo_path</key>
+				<string>%found_filename%</string>
+			</dict>
+			<key>Processor</key>
+			<string>MSOffice2016VersionChecker</string>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>
@@ -45,16 +76,14 @@
 						<string>%GROUP_TEMPLATE%</string>
 					</dict>
 				</array>
+				<key>pkg_path</key>
+				<string>%pathname%</string>
 				<key>policy_category</key>
 				<string>%POLICY_CATEGORY%</string>
 				<key>policy_template</key>
 				<string>%POLICY_TEMPLATE%</string>
 				<key>prod_name</key>
 				<string>%NAME%</string>
-                <key>version</key>
-				<string>%version%</string>
-				<key>self_service_description</key>
-				<string>%SELF_SERVICE_DESCRIPTION% Install %prod_name% %version%.</string>
 			</dict>
 			<key>Processor</key>
 			<string>JSSImporter</string>
