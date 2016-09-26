@@ -13,7 +13,7 @@
             <key>CATEGORY</key>
             <string>APPLICATIONS</string>
             <key>GROUP_TEMPLATE</key>
-            <string>SmartGroupTemplate.xml</string>          
+            <string>SlackSmartGroupTemplate.xml</string>          
             <key>GROUP_NAME</key>
             <string>Apps: %NAME% - Needs update</string>
         </dict>
