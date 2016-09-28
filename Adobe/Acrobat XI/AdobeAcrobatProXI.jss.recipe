@@ -22,13 +22,11 @@ into your JSS.</string>
 		<key>POLICY_CATEGORY</key>
 		<string>ADOBE</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>%RECIPE_DIR%/AdobeAcrobatProXIPolicyTemplate.xml</string>
-		<key>ICON</key>
-		<string>%RECIPE_DIR%/AdobeAcrobat.png</string>
+		<string>AdobeAcrobatProXIPolicyTemplate.xml</string>
 		<key>GROUP_NAME</key>
-		<string>None</string>
+		<string>Computers: PDX All Managed Clients</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>%RECIPE_DIR%/SmartGroupAllManagedClients.xml</string>
+		<string>SmartGroupAllManagedClients.xml</string>
 		<key>DESCRIPTION</key>
 		<string>Update Adobe Acrobat Pro XI to</string>
 	</dict>
@@ -53,8 +51,6 @@ into your JSS.</string>
 				<string>%POLICY_CATEGORY%</string>
 				<key>policy_template</key>
 				<string>%POLICY_TEMPLATE%</string>
-				<key>self_service_icon</key>
-				<string>%ICON%</string>
 				<key>self_service_description</key>
 				<string>%DESCRIPTION% %version%</string>
 				<key>groups</key>

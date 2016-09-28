@@ -1,12 +1,11 @@
 <policy>
     <general>
-    	<id>9434</id>
         <name>Adobe Acrobat Pro XI Update</name>
         <enabled>true</enabled>
         <trigger_other>AdobeAcrobatProXIUpdate</trigger_other>
         <frequency>Ongoing</frequency>
         <category>
-            <name>SOFTWARE UPDATES</name>
+            <name>ADOBE</name>
         </category>
         <site>
             <id>5</id>
