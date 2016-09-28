@@ -21,7 +21,7 @@
         <key>GROUP_NAME</key>
         <string>Apps: Adobe Acrobat Pro XI - Needs update</string>
         <key>GROUP_TEMPLATE</key>
-        <string>%RECIPE_DIR%/AdobeAcrobatProXISmartGroup.xml</string>
+        <string>AdobeAcrobatProXISmartGroup.xml</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
