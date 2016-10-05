@@ -13,7 +13,7 @@
 		<key>GROUP_NAME</key>
 		<string>Computers: PDX All Managed Clients</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>SmartGroupTemplate.xml</string>
+		<string>SmartGroupAllManagedClients.xml</string>
 		<key>NAME</key>
 		<string>Cyberduck</string>
 		<key>POLICY_CATEGORY</key>
