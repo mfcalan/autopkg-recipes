@@ -22,7 +22,7 @@
 		</criterion>
 		<criterion>
 			<name>Application Version</name>
-			<priority>3</priority>
+			<priority>2</priority>
 			<and_or>and</and_or>
 			<search_type>is not</search_type>
 			<value>%VERSION%</value>
