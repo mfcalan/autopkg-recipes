@@ -22,7 +22,7 @@
         <key>MinimumVersion</key>
         <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.mfcalan.pkg.VLC</string>
+        <string>com.github.mfcalan.pkg.MPlayerX</string>
         <key>Process</key>
         <array>
             <dict>
