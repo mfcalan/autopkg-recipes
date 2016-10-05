@@ -20,10 +20,6 @@
 		<string>10.11.x,10.10.x,10.9.x</string>
        	<key>JSS_INVENTORY_NAME</key>
         <string>Adobe Acrobat.app</string>
-		<key>POLICY_CATEGORY</key>
-		<string>ADOBE</string>
-		<key>POLICY_TEMPLATE</key>
-		<string>PolicyTemplate.xml</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
@@ -49,10 +45,6 @@
 				</array>
 				<key>os_requirements</key>
 				<string>%OS_REQUIREMENTS%</string>
-				<key>policy_category</key>
-				<string>%POLICY_CATEGORY%</string>
-				<key>policy_template</key>
-				<string>%POLICY_TEMPLATE%</string>
 				<key>prod_name</key>
 				<string>%NAME%</string>
 				<key>version</key>
