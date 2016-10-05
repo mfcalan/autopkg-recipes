@@ -38,7 +38,7 @@
                     <array>
                         <dict>
                             <key>name</key>
-                            <string>Apps: Google Chrome - Needs update to %VERSION%</string>
+                            <string>Apps: Google Chrome - Needs update to %version%</string>
                             <key>category</key>
                     		<string>%CATEGORY%</string>
                             <key>smart</key>
