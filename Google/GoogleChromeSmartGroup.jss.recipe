@@ -16,6 +16,8 @@
             <string>GOOGLE</string>
             <key>GROUP_TEMPLATE</key>
             <string>SmartGroupTemplate.xml</string>
+            <key>GROUP_NAME</key>
+            <string>Apps: %NAME% - Needs update</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
