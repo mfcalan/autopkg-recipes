@@ -10,6 +10,8 @@
         <dict>
             <key>NAME</key>
             <string>Google Drive</string>
+            <key>JSS_INVENTORY_NAME</key>
+			<string>Google Drive.app</string>
             <key>CATEGORY</key>
             <string>GOOGLE</string>
             <key>GROUP_TEMPLATE</key>
