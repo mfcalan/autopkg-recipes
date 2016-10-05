@@ -1,21 +1,21 @@
 <policy>
     <general>
-        <name>Adobe Acrobat Pro XI Update</name>
+        <name>%PROD_NAME% Update</name>
         <enabled>true</enabled>
-        <trigger_other>AdobeAcrobatProXIUpdate</trigger_other>
+        <trigger_other>AdobeAcrobatDCUpdate</trigger_other>
         <frequency>Ongoing</frequency>
         <category>
-            <name>ADOBE</name>
+            <name>%POLICY_CATEGORY%</name>
         </category>
         <site>
             <id>5</id>
             <name>Portland</name>
         </site>
     </general>
-    <scope>
+	<scope>
 		<!--Scope added by JSSImporter-->
-    </scope>
-    <package_configuration>
+	</scope>
+	<package_configuration>
 		<!--Package added by JSSImporter-->
     </package_configuration>
     <scripts>
