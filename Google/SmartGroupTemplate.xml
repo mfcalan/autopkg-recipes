@@ -18,7 +18,7 @@
             <priority>1</priority>
             <and_or>and</and_or>
             <search_type>is not</search_type>
-            <value>%VERSION%</value>
+            <value>%version%</value>
         </criterion>
     </criteria>
 </computer_group>

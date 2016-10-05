@@ -17,7 +17,7 @@
             <key>POLICY_TEMPLATE</key>
             <string>PolicyTemplate.xml</string>
             <key>GROUP_TEMPLATE</key>
-            <string>SmartGroupTemplate.xml</string>
+            <string>SmartGroupAllManagedClients.xml</string>
             <key>GROUP_NAME</key>
             <string>Computers: PDX All Managed Clients</string>
             <key>DESCRIPTION</key>
