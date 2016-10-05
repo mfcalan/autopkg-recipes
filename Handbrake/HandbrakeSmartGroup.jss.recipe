@@ -9,9 +9,9 @@
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>Handbrake</string>
+            <string>HandBrake</string>
             <key>JSS_INVENTORY_NAME</key>
-			<string>Handbrake.app</string>
+			<string>HandBrake.app</string>
             <key>CATEGORY</key>
             <string>APPLICATIONS</string>
             <key>GROUP_TEMPLATE</key>
@@ -38,7 +38,7 @@
                     <array>
                         <dict>
                             <key>name</key>
-                            <string>Apps: Handbrake - Needs update to %version%</string>
+                            <string>Apps: HandBrake - Needs update to %version%</string>
                             <key>category</key>
                     		<string>%CATEGORY%</string>
                             <key>smart</key>
