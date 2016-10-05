@@ -3,25 +3,21 @@
 <plist version="1.0">
     <dict>
         <key>Description</key>
-        <string>Downloads latest VLC disk image, and builds a package, and uploads to the JSS.</string>
+        <string>Recipe to keep VLC JSS smart group updated.</string>
         <key>Identifier</key>
-        <string>com.github.mfcalan.jss.VLC</string>
+        <string>com.github.mfcalan.jss.VLCSmartGroup</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
             <string>VLC</string>
+            <key>JSS_INVENTORY_NAME</key>
+			<string>VLC.app</string>
             <key>CATEGORY</key>
             <string>APPLICATIONS</string>
-            <key>POLICY_CATEGORY</key>
-            <string>APPLICATIONS</string>
-            <key>POLICY_TEMPLATE</key>
-            <string>PolicyTemplate.xml</string>
-            <key>GROUP_NAME</key>
-            <string>Computers: PDX All Managed Clients</string>
             <key>GROUP_TEMPLATE</key>
-            <string>SmartGroupAllManagedClients.xml</string>
-            <key>DESCRIPTION</key>
-            <string>VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols.</string>
+            <string>SmartGroupTemplate.xml</string>
+            <key>GROUP_NAME</key>
+            <string>Apps: %NAME% - Needs update</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
@@ -38,17 +34,13 @@
 					<string>%version%</string>
                     <key>category</key>
                     <string>%CATEGORY%</string>
-                    <key>policy_category</key>
-                    <string>%POLICY_CATEGORY%</string>
-                    <key>policy_template</key>
-                    <string>%POLICY_TEMPLATE%</string>
-                    <key>self_service_description</key>
-                    <string>%DESCRIPTION% Install %prod_name% %version%</string>
                     <key>groups</key>
                     <array>
                         <dict>
                             <key>name</key>
-                            <string>%GROUP_NAME%</string>
+                            <string>Apps: VLC - Needs update to %version%</string>
+                            <key>category</key>
+                    		<string>%CATEGORY%</string>
                             <key>smart</key>
                             <true/>
                             <key>template_path</key>
