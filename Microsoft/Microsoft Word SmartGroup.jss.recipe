@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Updates the JSS smart group</string>
 	<key>Identifier</key>
-	<string>com.github.mfcalan.jss.MicrosoftWord</string>
+	<string>com.github.mfcalan.jss.MicrosoftWordSmartGroup</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
