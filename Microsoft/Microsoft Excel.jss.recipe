@@ -30,7 +30,7 @@
 		<key>POLICY_CATEGORY</key>
 		<string>MICROSOFT</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>ExcelPolicyTemplate.xml</string>
+		<string>Microsoft Excel Policy Template.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Microsoft Excel is a spreadsheet application developed by Microsoft. It features calculation, graphing tools, pivot tables, and a macro programming language called Visual Basic for Applications.</string>
 	</dict>
