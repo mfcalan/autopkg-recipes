@@ -62,7 +62,7 @@ used by other processors in a child recipe.
             <key>Arguments</key>
             <dict>
                 <key>filename</key>
-                <string>>autopkg.%NAME%-%version%.pkg</string>
+                <string>autopkg.%NAME%-%version%.pkg</string>
             </dict>
         </dict>
         <dict>
