@@ -30,6 +30,8 @@
                 <dict>
                     <key>prod_name</key>
                     <string>%NAME%</string>
+                    <key>version</key>
+					<string>%version%</string>
                     <key>category</key>
                     <string>%CATEGORY%</string>
                     <key>groups</key>
